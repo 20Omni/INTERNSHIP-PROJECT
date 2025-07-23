@@ -3,23 +3,25 @@ import pandas as pd
 import datetime
 import joblib
 
-# =====================
-# 🔹 Load Models & Encoders
-# =====================
-priority_model = joblib.load("priority_xgboost (1).pkl")
-priority_label_encoder = joblib.load("priority_label_encoder (1).pkl")
-priority_vectorizer = joblib.load("priority_tfidf_vectorizer (1).pkl")
+# =======================
+# Load Models & Encoders
+# =======================
+# Priority prediction
+priority_model = joblib.load("priority_xgboost.pkl")
+priority_label_encoder = joblib.load("priority_label_encoder.pkl")
+priority_vectorizer = joblib.load("priority_tfidf_vectorizer.pkl")
 
-category_model = joblib.load("naive_bayes_task_classifier.joblib")  # Naive Bayes
-category_label_encoder = joblib.load("task_label_encoder (1).pkl")
+# Task classification (Naive Bayes)
+task_model = joblib.load("nb_task_classifier.joblib")
+task_label_encoder = joblib.load("nb_label_encoder.joblib")
 task_vectorizer = joblib.load("task_tfidf_vectorizer.pkl")
 
-# =====================
-# 🔹 Load Dataset
-# =====================
+# =======================
+# Load Dataset
+# =======================
 @st.cache_data
 def load_data():
-    return pd.read_csv("cleaned_final_task_dataset (1).csv")
+    return pd.read_csv("final_task_dataset_balanced.csv")
 
 df = load_data()
 
@@ -97,4 +99,35 @@ if submitted:
             st.dataframe(user_past_tasks[["task_id", "task_description", "status"]].head(5))
         else:
             st.error(f"⚠️ {assigned_user} has **no prior tasks** in category **{pred_category}**.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
