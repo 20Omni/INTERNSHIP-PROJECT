@@ -57,7 +57,7 @@ task_options = df["task_description"].dropna().unique().tolist()
 selected_task = st.selectbox("select an existing task:", [""] + task_options)
 
 with st.form("task_form"):
-    task_desc = st.text_area("value=selected_task if selected_task else "")
+   
     deadline = st.date_input("📅 Deadline", min_value=datetime.date.today())
     submitted = st.form_submit_button("Predict & Assign")
 
