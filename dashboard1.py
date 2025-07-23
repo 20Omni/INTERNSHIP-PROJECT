@@ -54,7 +54,7 @@ st.title("🧠 AI Task Assignment Dashboard")
 
 # Dropdown for selecting task from dataset
 task_options = df["task_description"].dropna().unique().tolist()
-selected_task = st.selectbox("Or select an existing task:", [""] + task_options)
+selected_task = st.selectbox("select an existing task:", [""] + task_options)
 
 with st.form("task_form"):
     task_desc = st.text_area("📝 Enter Task Description", value=selected_task if selected_task else "")
