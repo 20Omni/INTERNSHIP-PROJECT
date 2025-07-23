@@ -61,10 +61,7 @@ with st.form("task_form"):
     deadline = st.date_input("📅 Deadline", min_value=datetime.date.today())
     submitted = st.form_submit_button("Predict & Assign")
 
-if submitted:
-    if not task_desc.strip():
-        st.error("Task description cannot be empty!")
-    else:
+
         # Vectorize
         task_vector = task_vectorizer.transform([task_desc])
         priority_vector = priority_vectorizer.transform([task_desc])
