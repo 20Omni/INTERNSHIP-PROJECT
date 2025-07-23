@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
-import datetime
 import joblib
+import datetime
+import random
 
 # =====================
-# 🔹 Load Models & Encoders
+# Load Models & Encoders
 # =====================
 priority_model = joblib.load("priority_xgboost.pkl")
 priority_label_encoder = joblib.load("priority_label_encoder.pkl")
@@ -15,7 +16,7 @@ task_label_encoder = joblib.load("nb_label_encoder.joblib")
 task_vectorizer = joblib.load("task_tfidf_vectorizer.pkl")
 
 # =====================
-# 🔹 Load Dataset
+# Load Dataset
 # =====================
 @st.cache_data
 def load_data():
@@ -24,69 +25,65 @@ def load_data():
 df = load_data()
 
 # =====================
-# 🔹 Workload-based User Assignment
+# Improved workload assignment
 # =====================
 def assign_user_with_check(pred_category, urgency_score=0):
     user_workload_df = df.groupby("assigned_user")["user_current_load"].mean().reset_index()
     user_workload_df.rename(columns={"user_current_load": "avg_workload"}, inplace=True)
 
+    # Filter users who worked in this category
     matching_users = df[df["category"] == pred_category]["assigned_user"].unique()
     matching_users_filtered = user_workload_df[user_workload_df["assigned_user"].isin(matching_users)].copy()
 
     if matching_users_filtered.empty:
-        return "No available user"
+        # Fallback: all users
+        matching_users_filtered = user_workload_df.copy()
 
     matching_users_filtered["urgency_score"] = urgency_score
     matching_users_filtered["combined_score"] = matching_users_filtered["avg_workload"] + urgency_score
 
-    assigned_user = matching_users_filtered.sort_values("combined_score").iloc[0]["assigned_user"]
+    # Pick randomly among top 3 candidates
+    top_candidates = matching_users_filtered.sort_values("combined_score").head(3)
+    assigned_user = random.choice(top_candidates["assigned_user"].tolist())
     return assigned_user
 
 # =====================
-# 🔹 Streamlit UI
+# Streamlit UI
 # =====================
 st.title("🧠 AI Task Assignment Dashboard")
 
-with st.form("task_form"):
-    input_mode = st.radio("Choose input mode:", ["Select from dataset", "Enter manually"])
-    all_tasks = df["task_description"].dropna().unique().tolist()
-    task_desc = ""
-    if input_mode == "Select from dataset":
-        task_desc = st.selectbox("📂 Select a task:", all_tasks)
-    else:
-        task_desc = st.text_area("📝 Enter Task Description")
+# Dropdown for selecting task from dataset
+task_options = df["task_description"].dropna().unique().tolist()
+selected_task = st.selectbox("Or select an existing task:", [""] + task_options)
 
+with st.form("task_form"):
+    task_desc = st.text_area("📝 Enter Task Description", value=selected_task if selected_task else "")
     deadline = st.date_input("📅 Deadline", min_value=datetime.date.today())
     submitted = st.form_submit_button("Predict & Assign")
 
 if submitted:
     if not task_desc.strip():
-        st.warning("⚠️ Please provide a task description.")
+        st.error("Task description cannot be empty!")
     else:
-        task_vector_priority = priority_vectorizer.transform([task_desc])
-        task_vector_category = task_vectorizer.transform([task_desc])
+        # Vectorize
+        task_vector = task_vectorizer.transform([task_desc])
+        priority_vector = priority_vectorizer.transform([task_desc])
 
-        pred_priority_enc = priority_model.predict(task_vector_priority)[0]
+        # Predictions
+        pred_priority_enc = priority_model.predict(priority_vector)[0]
         pred_priority = priority_label_encoder.inverse_transform([pred_priority_enc])[0]
 
-        pred_category_enc = task_model.predict(task_vector_category)[0]
+        pred_category_enc = task_model.predict(task_vector)[0]
         pred_category = task_label_encoder.inverse_transform([pred_category_enc])[0]
 
+        # Deadline urgency
         today = datetime.date.today()
         days_left = (deadline - today).days
         urgency_score = max(0, 10 - days_left)
 
+        # Assign user using improved logic
         assigned_user = assign_user_with_check(pred_category, urgency_score)
 
-        if assigned_user != "No available user":
-            st.success(f"✅ Task Assigned to: **{assigned_user}**")
-            st.info(f"🔺 Priority: **{pred_priority}** | 📁 Category: **{pred_category}** | 🗓 Days to Deadline: {days_left}")
-        else:
-            st.warning("⚠️ No suitable user found.")
-
-        # Cross-check
-        user_past_tasks = df[(df["assigned_user"] == assigned_user) & (df["category"] == pred_category)]
-        if not user_past_tasks.empty:
-            st.success(f"✅ {assigned_user} has prior experience in **{pred_category}**.")
-        else:
-            st.error(f"⚠️ {assigned_user} has **no prior tasks** in category **{pred_category}**.")
+        # Show results
+        st.success(f"✅ Task Assigned to: **{assigned_user}**")
+        st.info(f"🔺 Priority: **{pred_priority}** | 📁 Category: **{pred_category}** | 🗓 Days to Deadline: {days_left}")
