@@ -60,8 +60,8 @@ with st.form("task_form"):
    
     deadline = st.date_input("📅 Deadline", min_value=datetime.date.today())
     submitted = st.form_submit_button("Predict & Assign")
-     task_vector = task_vectorizer.transform([task_desc])
-        priority_vector = priority_vectorizer.transform([task_desc])
+    task_vector = task_vectorizer.transform([task_desc])
+    priority_vector = priority_vectorizer.transform([task_desc])
 
         # Predictions
         pred_priority_enc = priority_model.predict(priority_vector)[0]
