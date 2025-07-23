@@ -3,9 +3,9 @@ import pandas as pd
 import datetime
 import joblib
 
-# =======================
-# Load Models & Encoders
-# =======================
+# =====================
+# 🔹 Load Models & Encoders
+# =====================
 # Priority prediction
 priority_model = joblib.load("priority_xgboost.pkl")
 priority_label_encoder = joblib.load("priority_label_encoder.pkl")
@@ -16,12 +16,12 @@ task_model = joblib.load("nb_task_classifier.joblib")
 task_label_encoder = joblib.load("nb_label_encoder.joblib")
 task_vectorizer = joblib.load("task_tfidf_vectorizer.pkl")
 
-# =======================
-# Load Dataset
-# =======================
+# =====================
+# 🔹 Load Dataset
+# =====================
 @st.cache_data
 def load_data():
-    return pd.read_csv("final_task_dataset_balanced.csv")
+    return pd.read_csv("cleaned_final_task_dataset (1).csv")
 
 df = load_data()
 
@@ -29,7 +29,7 @@ df = load_data()
 # 🔹 Workload-based User Assignment
 # =====================
 def assign_user_with_check(pred_category, urgency_score=0):
-    # Group by workload
+    # Group workload
     user_workload_df = df.groupby("assigned_user")["user_current_load"].mean().reset_index()
     user_workload_df.rename(columns={"user_current_load": "avg_workload"}, inplace=True)
 
@@ -71,8 +71,8 @@ if submitted:
         pred_priority = priority_label_encoder.inverse_transform([pred_priority_enc])[0]
 
         # 🔸 Predict category
-        pred_category_enc = category_model.predict(task_vector_category)[0]
-        pred_category = category_label_encoder.inverse_transform([pred_category_enc])[0]
+        pred_category_enc = task_model.predict(task_vector_category)[0]
+        pred_category = task_label_encoder.inverse_transform([pred_category_enc])[0]
 
         # 🔸 Compute urgency
         today = datetime.date.today()
@@ -99,35 +99,3 @@ if submitted:
             st.dataframe(user_past_tasks[["task_id", "task_description", "status"]].head(5))
         else:
             st.error(f"⚠️ {assigned_user} has **no prior tasks** in category **{pred_category}**.")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
