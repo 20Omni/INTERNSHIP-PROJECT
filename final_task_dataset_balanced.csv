@@ -1,0 +1,487 @@
+task_id,task_description,deadline,priority,assigned_user,user_workload,past_task_behavior,category,status,time_taken_(hours),deadline_days_remaining,task_length,has_keyword_urgent,is_weekend_deadline,category_encoded,status_encoded,priority_encoded,is_completed,user_current_load,past_behavior_score,workload,deadline_days
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+T0242,Restore database from backup,2025-08-27,High,User_6,5.0,delayed,Development,Completed,8.9,37.0,4.0,0.0,0.0,2.0,0.0,0.0,1.0,21.0,0.3823529411764705,1.3984674329501914,37.0
+synthetic_57303,Implement search functionality.,2025-08-17,Urgent,user1,6.0,Needs Improvement,Development,To Do,8.054563674974755,,,,,,,,,,,,
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+synthetic_33340,Write API reference documentation.,2025-07-28,Medium,user9,3.0,Late,Documentation,To Do,5.777422838034972,,,,,,,,,,,,
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+T0203,Resolve payment gateway timeout issue,2025-09-10,High,User_8,2.0,late,Design,Completed,9.1,51.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,15.0,0.3870967741935484,1.639846743295019,51.0
+T0262,Patch security vulnerability in auth system,2025-07-29,High,User_9,8.0,late,DevOps,In Progress,0.0,8.0,6.0,0.0,0.0,1.0,1.0,0.0,0.0,17.0,0.3076923076923077,1.898467432950192,8.0
+T0266,Patch security vulnerability in auth system,2025-09-06,High,User_6,5.0,delayed,Design,Completed,5.2,47.0,6.0,0.0,0.0,0.0,0.0,0.0,1.0,21.0,0.3823529411764705,2.2375478927203063,47.0
+T0213,Resolve payment gateway timeout issue,2025-08-23,High,User_3,8.0,delayed,Testing,Completed,11.3,33.0,5.0,0.0,1.0,5.0,0.0,0.0,1.0,13.0,0.25,1.996168582375479,33.0
+T0176,Write integration tests for API,2025-08-09,Medium,User_5,10.0,on-time,Management,Pending,0.0,19.0,5.0,0.0,0.0,4.0,2.0,2.0,0.0,20.0,0.3235294117647059,1.9770114942528727,19.0
+T0137,Refactor module for scalability,2025-09-08,Medium,User_6,8.0,on-time,Design,Pending,0.0,49.0,4.0,0.0,0.0,0.0,2.0,2.0,0.0,21.0,0.3823529411764705,1.9386973180076628,49.0
+synthetic_28727,Create wireframes for onboarding screens.,2025-08-12,Urgent,user7,5.0,Needs Improvement,Design,To Do,11.273215805906338,,,,,,,,,,,,
+synthetic_51187,Write unit tests for payment module.,2025-08-11,Medium,user10,9.0,Excellent,Testing,To Do,4.281703862000476,,,,,,,,,,,,
+synthetic_32669,Fix bugs in profile update API.,2025-07-24,Urgent,user4,1.0,Needs Improvement,Development,To Do,11.077699779135612,,,,,,,,,,,,
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+T0080,Update internal documentation,2025-08-19,Low,User_7,8.0,on-time,Management,Pending,0.0,29.0,3.0,0.0,0.0,4.0,2.0,1.0,0.0,20.0,0.3823529411764705,1.260536398467433,29.0
+T0018,Organize shared team files,2025-09-17,Low,User_10,10.0,on-time,Management,Completed,2.4,58.0,4.0,0.0,1.0,4.0,0.0,1.0,1.0,17.0,0.3103448275862069,2.3160919540229883,58.0
+synthetic_21579,Plan sprint retrospective.,2025-08-19,Medium,user8,9.0,On Time,Management,To Do,9.183820464865423,,,,,,,,,,,,
+T0195,Refactor module for scalability,2025-08-26,Medium,User_7,9.0,late,DevOps,Completed,2.0,36.0,4.0,0.0,0.0,1.0,0.0,2.0,1.0,20.0,0.3823529411764705,1.825670498084291,36.0
+T0004,Send status update to manager,2025-07-24,Low,User_8,5.0,delayed,Testing,In Progress,0.0,3.0,5.0,0.0,0.0,5.0,1.0,1.0,0.0,15.0,0.3870967741935484,1.1455938697318009,3.0
+synthetic_97578,Optimize CI/CD pipeline.,2025-08-02,Medium,user10,4.0,On Time,DevOps,To Do,7.3311823824530205,,,,,,,,,,,,
+T0070,Update internal documentation,2025-08-06,Low,User_6,6.0,on-time,Management,In Progress,0.0,16.0,3.0,0.0,1.0,4.0,1.0,1.0,0.0,21.0,0.3823529411764705,0.814176245210728,16.0
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+T0025,Update internal documentation,2025-08-15,Low,User_10,2.0,delayed,Management,Completed,2.8,25.0,3.0,0.0,1.0,4.0,0.0,1.0,1.0,17.0,0.3103448275862069,0.524904214559387,25.0
+T0281,Resolve payment gateway timeout issue,2025-07-22,High,User_9,2.0,late,Management,Pending,0.0,1.0,5.0,0.0,0.0,4.0,2.0,0.0,0.0,17.0,0.3076923076923077,0.7777777777777777,1.0
+synthetic_53271,Design UI for dashboard module.,2025-08-10,High,user5,6.0,Needs Improvement,Design,To Do,2.143839229607484,,,,,,,,,,,,
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+T0085,Organize shared team files,2025-07-25,Low,User_5,8.0,delayed,DevOps,Pending,0.0,4.0,4.0,0.0,1.0,1.0,2.0,1.0,0.0,20.0,0.3235294117647059,1.1628352490421454,4.0
+T0109,Write integration tests for API,2025-09-06,Medium,User_4,10.0,on-time,Development,In Progress,0.0,47.0,5.0,0.0,1.0,2.0,1.0,2.0,0.0,14.0,0.28,2.4597701149425286,47.0
+T0194,Create UI wireframes for feature,2025-08-07,Medium,User_1,2.0,late,DevOps,Pending,0.0,17.0,5.0,0.0,0.0,1.0,2.0,2.0,0.0,25.0,0.3888888888888889,1.053639846743295,17.0
+synthetic_99820,Implement search functionality.,2025-08-19,Low,user9,5.0,On Time,Development,To Do,3.731835194863153,,,,,,,,,,,,
+synthetic_43204,Redesign profile section layout.,2025-08-17,Urgent,user8,3.0,On Time,Design,To Do,6.24584946799887,,,,,,,,,,,,
+T0067,Schedule weekly team sync,2025-07-23,Low,User_7,5.0,delayed,Management,Completed,10.4,2.0,4.0,0.0,0.0,4.0,0.0,1.0,1.0,20.0,0.3823529411764705,0.7950191570881225,2.0
+T0204,Resolve payment gateway timeout issue,2025-08-29,High,User_10,7.0,delayed,Testing,In Progress,0.0,39.0,5.0,0.0,0.0,5.0,1.0,0.0,0.0,17.0,0.3103448275862069,1.9885057471264365,39.0
+T0058,Organize shared team files,2025-08-01,Low,User_1,4.0,on-time,DevOps,In Progress,0.0,11.0,4.0,0.0,0.0,1.0,1.0,1.0,0.0,25.0,0.3888888888888889,0.8390804597701148,11.0
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+T0072,Send status update to manager,2025-08-19,Low,User_1,2.0,delayed,Management,Completed,9.3,29.0,5.0,0.0,0.0,4.0,0.0,1.0,1.0,25.0,0.3888888888888889,1.260536398467433,29.0
+synthetic_44512,Update system documentation for new features.,2025-08-04,Medium,user3,5.0,On Time,Documentation,To Do,8.117328787195131,,,,,,,,,,,,
+T0177,Refactor module for scalability,2025-07-28,Medium,User_1,7.0,delayed,Design,In Progress,0.0,7.0,4.0,0.0,1.0,0.0,1.0,2.0,0.0,25.0,0.3888888888888889,1.1034482758620687,7.0
+synthetic_72571,Prepare user guide for module deployment.,2025-08-13,Urgent,user6,10.0,Excellent,Documentation,To Do,4.195971670023519,,,,,,,,,,,,
+T0136,Create UI wireframes for feature,2025-09-17,Medium,User_5,6.0,delayed,Design,Completed,8.7,58.0,5.0,0.0,1.0,0.0,0.0,2.0,1.0,20.0,0.3235294117647059,2.204980842911877,58.0
+T0279,Deploy hotfix for customer complaints,2025-07-25,High,User_5,6.0,delayed,Development,In Progress,0.0,4.0,5.0,0.0,0.0,2.0,1.0,0.0,0.0,20.0,0.3235294117647059,1.2739463601532566,4.0
+synthetic_11423,Write API reference documentation.,2025-08-18,Urgent,user9,7.0,Needs Improvement,Documentation,To Do,8.602228647398437,,,,,,,,,,,,
+T0149,Write integration tests for API,2025-07-24,Medium,User_9,10.0,late,Management,Pending,0.0,3.0,5.0,0.0,1.0,4.0,2.0,2.0,0.0,17.0,0.3076923076923077,1.7011494252873562,3.0
+T0186,Write integration tests for API,2025-07-23,Medium,User_5,9.0,delayed,DevOps,Completed,2.2,2.0,5.0,0.0,0.0,1.0,0.0,2.0,1.0,20.0,0.3235294117647059,1.5727969348659,2.0
+T0057,Organize shared team files,2025-09-03,Low,User_8,3.0,delayed,Testing,In Progress,0.0,44.0,4.0,0.0,1.0,5.0,1.0,1.0,0.0,15.0,0.3870967741935484,1.296934865900383,44.0
+T0175,Review peer pull requests,2025-07-27,Medium,User_7,10.0,late,Development,Pending,0.0,6.0,4.0,0.0,0.0,2.0,2.0,2.0,0.0,20.0,0.3823529411764705,1.4195402298850577,6.0
+T0113,Write integration tests for API,2025-07-26,Medium,User_5,9.0,delayed,Documentation,Completed,9.3,5.0,5.0,0.0,1.0,3.0,0.0,2.0,1.0,20.0,0.3235294117647059,1.6245210727969346,5.0
+T0074,Clean up old logs from server,2025-08-06,Low,User_8,4.0,on-time,Documentation,Completed,11.3,16.0,6.0,0.0,1.0,3.0,0.0,1.0,1.0,15.0,0.3870967741935484,1.5919540229885056,16.0
+T0082,Send status update to manager,2025-07-30,Low,User_10,6.0,on-time,DevOps,Pending,0.0,9.0,5.0,0.0,0.0,1.0,2.0,1.0,0.0,17.0,0.3103448275862069,1.3601532567049808,9.0
+synthetic_28727,Create wireframes for onboarding screens.,2025-08-12,Urgent,user7,5.0,Needs Improvement,Design,To Do,11.273215805906338,,,,,,,,,,,,
+T0159,Write integration tests for API,2025-08-25,Medium,User_9,8.0,delayed,DevOps,Completed,10.4,35.0,5.0,0.0,1.0,1.0,0.0,2.0,1.0,17.0,0.3076923076923077,2.0306513409961684,35.0
+synthetic_87801,Plan sprint retrospective.,2025-07-24,Urgent,user5,5.0,Needs Improvement,Management,To Do,4.57262712080829,,,,,,,,,,,,
+T0022,Clean up old logs from server,2025-08-28,Low,User_6,3.0,on-time,DevOps,Completed,11.3,38.0,6.0,0.0,0.0,1.0,0.0,1.0,1.0,21.0,0.3823529411764705,1.8601532567049808,38.0
+T0269,Fix critical bug in deployment pipeline,2025-08-13,High,User_10,1.0,late,Documentation,Completed,4.0,23.0,6.0,1.0,0.0,3.0,0.0,0.0,1.0,17.0,0.3103448275862069,1.3793103448275863,23.0
+T0116,Create UI wireframes for feature,2025-08-02,Medium,User_8,1.0,on-time,Design,Completed,10.6,12.0,5.0,0.0,1.0,0.0,0.0,2.0,1.0,15.0,0.3870967741935484,0.8563218390804597,12.0
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+synthetic_98017,Coordinate interdepartmental meeting.,2025-08-15,Urgent,user7,6.0,Late,Management,To Do,9.40768551628818,,,,,,,,,,,,
+synthetic_57303,Implement search functionality.,2025-08-17,Urgent,user1,6.0,Needs Improvement,Development,To Do,8.054563674974755,,,,,,,,,,,,
+synthetic_72571,Prepare user guide for module deployment.,2025-08-13,Urgent,user6,10.0,Excellent,Documentation,To Do,4.195971670023519,,,,,,,,,,,,
+T0001,Update internal documentation,2025-08-27,Low,User_4,4.0,late,Management,In Progress,0.0,37.0,3.0,0.0,1.0,4.0,1.0,1.0,0.0,14.0,0.28,0.954022988505747,37.0
+synthetic_43204,Redesign profile section layout.,2025-08-17,Urgent,user8,3.0,On Time,Design,To Do,6.24584946799887,,,,,,,,,,,,
+T0119,Write integration tests for API,2025-08-16,Medium,User_2,9.0,late,Documentation,Pending,0.0,26.0,5.0,0.0,1.0,3.0,2.0,2.0,0.0,18.0,0.4814814814814814,1.986590038314176,26.0
+T0225,Restore database from backup,2025-09-07,High,User_7,2.0,delayed,Documentation,Completed,9.1,48.0,4.0,0.0,1.0,3.0,0.0,0.0,1.0,20.0,0.3823529411764705,1.2547892720306513,48.0
+T0140,Create UI wireframes for feature,2025-09-10,Medium,User_3,9.0,late,Documentation,In Progress,0.0,51.0,5.0,0.0,0.0,3.0,1.0,2.0,0.0,13.0,0.25,2.4176245210727965,51.0
+T0020,Update internal documentation,2025-07-25,Low,User_3,7.0,late,Development,Pending,0.0,4.0,3.0,0.0,0.0,2.0,2.0,1.0,0.0,13.0,0.25,0.718390804597701,4.0
+synthetic_98470,Create wireframes for onboarding screens.,2025-08-05,High,user6,7.0,Needs Improvement,Design,To Do,3.649978372024934,,,,,,,,,,,,
+T0264,Restore database from backup,2025-08-22,High,User_10,8.0,late,Testing,Completed,11.1,32.0,4.0,0.0,1.0,5.0,0.0,0.0,1.0,17.0,0.3103448275862069,1.6455938697318009,32.0
+synthetic_17149,Conduct load testing for new API.,2025-08-11,Urgent,user2,2.0,Needs Improvement,Testing,To Do,4.434283857567285,,,,,,,,,,,,
+T0231,Patch security vulnerability in auth system,2025-08-04,High,User_6,2.0,on-time,DevOps,Completed,4.8,14.0,6.0,0.0,0.0,1.0,0.0,0.0,1.0,21.0,0.3823529411764705,1.3352490421455938,14.0
+T0083,Clean up old logs from server,2025-08-30,Low,User_8,4.0,delayed,Design,Pending,0.0,40.0,6.0,0.0,0.0,0.0,2.0,1.0,0.0,15.0,0.3870967741935484,2.005747126436781,40.0
+synthetic_22926,Write API reference documentation.,2025-08-07,Low,user2,10.0,Needs Improvement,Documentation,To Do,6.977025061811093,,,,,,,,,,,,
+synthetic_73068,Create wireframes for onboarding screens.,2025-08-14,High,user7,4.0,Excellent,Design,To Do,10.216256286144535,,,,,,,,,,,,
+T0289,Fix critical bug in deployment pipeline,2025-07-27,High,User_2,8.0,delayed,DevOps,Pending,0.0,6.0,6.0,1.0,1.0,1.0,2.0,0.0,0.0,18.0,0.4814814814814814,1.8639846743295017,6.0
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+T0221,Fix critical bug in deployment pipeline,2025-08-29,High,User_1,4.0,on-time,Testing,Completed,8.9,39.0,6.0,1.0,1.0,5.0,0.0,0.0,1.0,25.0,0.3888888888888889,1.988505747126437,39.0
+T0299,Deploy hotfix for customer complaints,2025-09-14,High,User_9,6.0,on-time,Design,Completed,6.3,55.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,17.0,0.3076923076923077,2.153256704980843,55.0
+synthetic_89762,Allocate resources for upcoming milestone.,2025-08-02,Low,user8,10.0,Late,Management,To Do,5.0663330661812775,,,,,,,,,,,,
+T0293,Deploy hotfix for customer complaints,2025-07-30,High,User_9,1.0,delayed,Development,In Progress,0.0,9.0,5.0,0.0,0.0,2.0,1.0,0.0,0.0,17.0,0.3076923076923077,0.8045977011494252,9.0
+T0237,Fix critical bug in deployment pipeline,2025-09-18,High,User_9,8.0,delayed,Development,Completed,4.6,59.0,6.0,1.0,1.0,2.0,0.0,0.0,1.0,17.0,0.3076923076923077,2.7777777777777777,59.0
+synthetic_75186,Plan sprint retrospective.,2025-07-22,Medium,user2,6.0,Needs Improvement,Management,To Do,2.1131981966611373,,,,,,,,,,,,
+T0283,Deploy hotfix for customer complaints,2025-09-09,High,User_2,10.0,on-time,Management,In Progress,0.0,50.0,5.0,0.0,1.0,4.0,1.0,0.0,0.0,18.0,0.4814814814814814,2.511494252873563,50.0
+synthetic_56601,Optimize CI/CD pipeline.,2025-07-24,Urgent,user1,2.0,Needs Improvement,DevOps,To Do,4.523913606931218,,,,,,,,,,,,
+T0222,Restore database from backup,2025-08-26,High,User_7,10.0,late,Development,In Progress,0.0,36.0,4.0,0.0,0.0,2.0,1.0,0.0,0.0,20.0,0.3823529411764705,1.9367816091954024,36.0
+synthetic_97057,Setup monitoring for production servers.,2025-08-15,Urgent,user10,2.0,Excellent,DevOps,To Do,9.349034859276792,,,,,,,,,,,,
+synthetic_74495,Update color palette and typography.,2025-08-15,Urgent,user8,5.0,On Time,Design,To Do,10.457119812982445,,,,,,,,,,,,
+T0166,Update user guides,2025-08-12,Medium,User_7,7.0,on-time,Testing,Pending,0.0,22.0,3.0,0.0,0.0,5.0,2.0,2.0,0.0,20.0,0.3823529411764705,1.0287356321839078,22.0
+synthetic_87801,Plan sprint retrospective.,2025-07-24,Urgent,user5,5.0,Needs Improvement,Management,To Do,4.57262712080829,,,,,,,,,,,,
+synthetic_16043,Conduct load testing for new API.,2025-08-04,High,user10,10.0,Needs Improvement,Testing,To Do,6.317783562360757,,,,,,,,,,,,
+T0098,Update internal documentation,2025-08-15,Low,User_8,1.0,late,Documentation,In Progress,0.0,25.0,3.0,0.0,1.0,3.0,1.0,1.0,0.0,15.0,0.3870967741935484,0.4137931034482758,25.0
+T0208,Deploy hotfix for customer complaints,2025-08-27,High,User_7,6.0,on-time,Testing,Pending,0.0,37.0,5.0,0.0,0.0,5.0,2.0,0.0,0.0,20.0,0.3823529411764705,1.842911877394636,37.0
+synthetic_28425,Update system documentation for new features.,2025-08-18,High,user4,5.0,On Time,Documentation,To Do,11.306911223099036,,,,,,,,,,,,
+synthetic_81727,Write unit tests for payment module.,2025-08-02,High,user10,1.0,Excellent,Testing,To Do,2.6272323717676,,,,,,,,,,,,
+T0103,Write integration tests for API,2025-09-18,Medium,User_8,1.0,on-time,DevOps,Pending,0.0,59.0,5.0,0.0,0.0,1.0,2.0,2.0,0.0,15.0,0.3870967741935484,1.6666666666666663,59.0
+T0051,Schedule weekly team sync,2025-08-22,Low,User_1,4.0,late,Testing,In Progress,0.0,32.0,4.0,0.0,0.0,5.0,1.0,1.0,0.0,25.0,0.3888888888888889,1.201149425287356,32.0
+synthetic_87801,Plan sprint retrospective.,2025-07-24,Urgent,user5,5.0,Needs Improvement,Management,To Do,4.57262712080829,,,,,,,,,,,,
+T0169,Review peer pull requests,2025-09-01,Medium,User_2,8.0,on-time,Management,Completed,1.9,42.0,4.0,0.0,1.0,4.0,0.0,2.0,1.0,18.0,0.4814814814814814,1.8180076628352488,42.0
+T0043,Update internal documentation,2025-08-28,Low,User_5,7.0,on-time,Testing,Completed,3.9,38.0,3.0,0.0,0.0,5.0,0.0,1.0,1.0,20.0,0.3235294117647059,1.304597701149425,38.0
+T0217,Restore database from backup,2025-07-24,High,User_10,1.0,delayed,Development,Completed,1.7,3.0,4.0,0.0,0.0,2.0,0.0,0.0,1.0,17.0,0.3103448275862069,0.3678160919540229,3.0
+synthetic_62480,Redesign profile section layout.,2025-07-23,High,user8,9.0,Needs Improvement,Design,To Do,3.729335843455418,,,,,,,,,,,,
+T0021,Organize shared team files,2025-07-27,Low,User_7,3.0,late,Development,Completed,2.5,6.0,4.0,0.0,0.0,2.0,0.0,1.0,1.0,20.0,0.3823529411764705,0.6417624521072796,6.0
+T0030,Send status update to manager,2025-08-25,Low,User_1,7.0,on-time,Management,In Progress,0.0,35.0,5.0,0.0,0.0,4.0,1.0,1.0,0.0,25.0,0.3888888888888889,1.9195402298850568,35.0
+T0287,Deploy hotfix for customer complaints,2025-09-10,High,User_2,3.0,on-time,Documentation,Completed,8.9,51.0,5.0,0.0,0.0,3.0,0.0,0.0,1.0,18.0,0.4814814814814814,1.75095785440613,51.0
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+synthetic_97057,Setup monitoring for production servers.,2025-08-15,Urgent,user10,2.0,Excellent,DevOps,To Do,9.349034859276792,,,,,,,,,,,,
+synthetic_43204,Redesign profile section layout.,2025-08-17,Urgent,user8,3.0,On Time,Design,To Do,6.24584946799887,,,,,,,,,,,,
+T0157,Refactor module for scalability,2025-09-16,Medium,User_6,4.0,delayed,Design,In Progress,0.0,57.0,4.0,0.0,0.0,0.0,1.0,2.0,0.0,21.0,0.3823529411764705,1.6321839080459768,57.0
+T0288,Resolve payment gateway timeout issue,2025-09-12,High,User_5,4.0,delayed,Testing,In Progress,0.0,53.0,5.0,0.0,0.0,5.0,1.0,0.0,0.0,20.0,0.3235294117647059,1.8965517241379304,53.0
+synthetic_98333,Prepare user guide for module deployment.,2025-07-27,High,user6,3.0,Excellent,Documentation,To Do,4.334593997634256,,,,,,,,,,,,
+T0039,Send status update to manager,2025-07-29,Low,User_10,6.0,delayed,Development,In Progress,0.0,8.0,5.0,0.0,1.0,2.0,1.0,1.0,0.0,17.0,0.3103448275862069,1.3429118773946358,8.0
+T0247,Fix critical bug in deployment pipeline,2025-08-25,High,User_8,7.0,late,Design,Pending,0.0,35.0,6.0,1.0,1.0,0.0,2.0,0.0,0.0,15.0,0.3870967741935484,2.2528735632183907,35.0
+synthetic_54335,Redesign profile section layout.,2025-07-25,High,user4,10.0,Late,Design,To Do,6.930717116305416,,,,,,,,,,,,
+T0250,Deploy hotfix for customer complaints,2025-08-14,High,User_7,6.0,late,DevOps,Pending,0.0,24.0,5.0,0.0,1.0,1.0,2.0,0.0,0.0,20.0,0.3823529411764705,1.6187739463601531,24.0
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+T0235,Restore database from backup,2025-09-16,High,User_9,5.0,delayed,DevOps,Completed,4.9,57.0,4.0,0.0,0.0,1.0,0.0,0.0,1.0,17.0,0.3076923076923077,1.743295019157088,57.0
+T0165,Create UI wireframes for feature,2025-08-12,Medium,User_2,8.0,on-time,DevOps,In Progress,0.0,22.0,5.0,0.0,0.0,1.0,1.0,2.0,0.0,18.0,0.4814814814814814,1.8065134099616853,22.0
+T0249,Deploy hotfix for customer complaints,2025-09-04,High,User_6,7.0,delayed,DevOps,Completed,8.4,45.0,5.0,0.0,0.0,1.0,0.0,0.0,1.0,21.0,0.3823529411764705,2.0919540229885056,45.0
+T0107,Review peer pull requests,2025-07-24,Medium,User_9,2.0,late,DevOps,Completed,1.8,3.0,4.0,0.0,0.0,1.0,0.0,2.0,1.0,17.0,0.3076923076923077,0.478927203065134,3.0
+synthetic_72991,Coordinate interdepartmental meeting.,2025-08-16,Low,user9,9.0,Late,Management,To Do,6.33787957473932,,,,,,,,,,,,
+synthetic_25203,Setup monitoring for production servers.,2025-08-16,Urgent,user8,1.0,Late,DevOps,To Do,3.6532500261104657,,,,,,,,,,,,
+synthetic_46940,Write unit tests for payment module.,2025-07-27,Urgent,user7,1.0,Excellent,Testing,To Do,5.544458818346778,,,,,,,,,,,,
+T0093,Schedule weekly team sync,2025-08-04,Low,User_6,1.0,delayed,Design,Pending,0.0,14.0,4.0,0.0,1.0,0.0,2.0,1.0,0.0,21.0,0.3823529411764705,0.557471264367816,14.0
+T0201,Resolve payment gateway timeout issue,2025-08-20,High,User_2,9.0,late,Documentation,In Progress,0.0,30.0,5.0,0.0,1.0,3.0,1.0,0.0,0.0,18.0,0.4814814814814814,2.055555555555556,30.0
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+T0105,Write integration tests for API,2025-08-20,Medium,User_2,8.0,on-time,Management,In Progress,0.0,30.0,5.0,0.0,0.0,4.0,1.0,2.0,0.0,18.0,0.4814814814814814,1.944444444444444,30.0
+T0212,Deploy hotfix for customer complaints,2025-08-14,High,User_6,3.0,delayed,DevOps,Pending,0.0,24.0,5.0,0.0,0.0,1.0,2.0,0.0,0.0,21.0,0.3823529411764705,1.28544061302682,24.0
+synthetic_45040,Setup monitoring for production servers.,2025-08-20,Urgent,user7,9.0,Late,DevOps,To Do,11.25532166359304,,,,,,,,,,,,
+T0023,Send status update to manager,2025-09-06,Low,User_4,10.0,delayed,Testing,Pending,0.0,47.0,5.0,0.0,0.0,5.0,2.0,1.0,0.0,14.0,0.28,2.4597701149425286,47.0
+T0012,Organize shared team files,2025-08-18,Low,User_8,2.0,delayed,Design,Completed,2.6,28.0,4.0,0.0,1.0,0.0,0.0,1.0,1.0,15.0,0.3870967741935484,0.9099616858237548,28.0
+T0129,Write integration tests for API,2025-09-14,Medium,User_2,4.0,on-time,DevOps,Completed,4.2,55.0,5.0,0.0,0.0,1.0,0.0,2.0,1.0,18.0,0.4814814814814814,1.9310344827586208,55.0
+T0038,Organize shared team files,2025-08-05,Low,User_2,3.0,late,Design,Completed,12.0,15.0,4.0,0.0,0.0,0.0,0.0,1.0,1.0,18.0,0.4814814814814814,0.7969348659003831,15.0
+synthetic_24245,Create onboarding manual for new developers.,2025-07-25,High,user10,5.0,Needs Improvement,Documentation,To Do,10.935529708429538,,,,,,,,,,,,
+T0260,Restore database from backup,2025-08-05,High,User_4,6.0,on-time,Testing,Completed,7.0,15.0,4.0,0.0,0.0,5.0,0.0,0.0,1.0,14.0,0.28,1.1302681992337165,15.0
+T0251,Resolve payment gateway timeout issue,2025-09-03,High,User_3,10.0,on-time,Management,Completed,11.0,44.0,5.0,0.0,0.0,4.0,0.0,0.0,1.0,13.0,0.25,2.408045977011494,44.0
+T0063,Clean up old logs from server,2025-08-01,Low,User_9,7.0,late,Management,In Progress,0.0,11.0,6.0,0.0,0.0,4.0,1.0,1.0,0.0,17.0,0.3076923076923077,1.8390804597701147,11.0
+T0053,Send status update to manager,2025-08-13,Low,User_2,8.0,on-time,Testing,Pending,0.0,23.0,5.0,0.0,0.0,5.0,2.0,1.0,0.0,18.0,0.4814814814814814,1.8237547892720305,23.0
+synthetic_97057,Setup monitoring for production servers.,2025-08-15,Urgent,user10,2.0,Excellent,DevOps,To Do,9.349034859276792,,,,,,,,,,,,
+T0227,Fix critical bug in deployment pipeline,2025-07-29,High,User_7,3.0,on-time,Documentation,Completed,4.9,8.0,6.0,1.0,1.0,3.0,0.0,0.0,1.0,20.0,0.3823529411764705,1.342911877394636,8.0
+T0147,Create UI wireframes for feature,2025-07-28,Medium,User_8,4.0,late,Testing,Completed,7.9,7.0,5.0,0.0,0.0,5.0,0.0,2.0,1.0,15.0,0.3870967741935484,1.1034482758620687,7.0
+T0064,Clean up old logs from server,2025-09-11,Low,User_7,5.0,delayed,Development,Completed,6.8,52.0,6.0,0.0,1.0,2.0,0.0,1.0,1.0,20.0,0.3823529411764705,2.3237547892720305,52.0
+T0290,Restore database from backup,2025-08-30,High,User_9,9.0,on-time,Design,Pending,0.0,40.0,4.0,0.0,0.0,0.0,2.0,0.0,0.0,17.0,0.3076923076923077,1.8946360153256705,40.0
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+synthetic_57303,Implement search functionality.,2025-08-17,Urgent,user1,6.0,Needs Improvement,Development,To Do,8.054563674974755,,,,,,,,,,,,
+T0010,Update internal documentation,2025-08-05,Low,User_5,9.0,on-time,Documentation,Completed,8.4,15.0,3.0,0.0,1.0,3.0,0.0,1.0,1.0,20.0,0.3235294117647059,1.1302681992337165,15.0
+T0163,Write integration tests for API,2025-09-03,Medium,User_7,4.0,delayed,Design,In Progress,0.0,44.0,5.0,0.0,0.0,0.0,1.0,2.0,0.0,20.0,0.3823529411764705,1.7413793103448274,44.0
+T0248,Resolve payment gateway timeout issue,2025-08-03,High,User_2,6.0,late,Documentation,Completed,10.7,13.0,5.0,0.0,0.0,3.0,0.0,0.0,1.0,18.0,0.4814814814814814,1.42911877394636,13.0
+T0233,Fix critical bug in deployment pipeline,2025-07-30,High,User_7,3.0,delayed,Testing,Completed,11.0,9.0,6.0,1.0,0.0,5.0,0.0,0.0,1.0,20.0,0.3823529411764705,1.360153256704981,9.0
+T0133,Update user guides,2025-08-31,Medium,User_10,4.0,delayed,Documentation,In Progress,0.0,41.0,3.0,0.0,0.0,3.0,1.0,2.0,0.0,17.0,0.3103448275862069,1.0229885057471264,41.0
+synthetic_26293,Create wireframes for onboarding screens.,2025-07-31,High,user9,4.0,Excellent,Design,To Do,7.45891673800536,,,,,,,,,,,,
+synthetic_74495,Update color palette and typography.,2025-08-15,Urgent,user8,5.0,On Time,Design,To Do,10.457119812982445,,,,,,,,,,,,
+T0239,Resolve payment gateway timeout issue,2025-08-02,High,User_4,7.0,delayed,Testing,Pending,0.0,12.0,5.0,0.0,1.0,5.0,2.0,0.0,0.0,14.0,0.28,1.5229885057471262,12.0
+T0042,Clean up old logs from server,2025-09-10,Low,User_4,4.0,late,Design,In Progress,0.0,51.0,6.0,0.0,0.0,0.0,1.0,1.0,0.0,14.0,0.28,2.1954022988505746,51.0
+synthetic_84126,Prepare user guide for module deployment.,2025-08-12,Urgent,user9,1.0,Late,Documentation,To Do,10.429359294889036,,,,,,,,,,,,
+T0282,Deploy hotfix for customer complaints,2025-07-23,High,User_10,10.0,delayed,Management,Pending,0.0,2.0,5.0,0.0,1.0,4.0,2.0,0.0,0.0,17.0,0.3103448275862069,1.6839080459770113,2.0
+T0110,Write integration tests for API,2025-08-29,Medium,User_3,1.0,on-time,DevOps,Pending,0.0,39.0,5.0,0.0,0.0,1.0,2.0,2.0,0.0,13.0,0.25,1.32183908045977,39.0
+synthetic_46940,Write unit tests for payment module.,2025-07-27,Urgent,user7,1.0,Excellent,Testing,To Do,5.544458818346778,,,,,,,,,,,,
+T0182,Refactor module for scalability,2025-08-15,Medium,User_9,2.0,late,Testing,Pending,0.0,25.0,4.0,0.0,0.0,5.0,2.0,2.0,0.0,17.0,0.3076923076923077,0.8582375478927202,25.0
+T0091,Clean up old logs from server,2025-09-01,Low,User_1,6.0,delayed,Documentation,Completed,5.0,42.0,6.0,0.0,0.0,3.0,0.0,1.0,1.0,25.0,0.3888888888888889,2.2624521072796933,42.0
+T0066,Update internal documentation,2025-09-06,Low,User_10,3.0,on-time,Documentation,In Progress,0.0,47.0,3.0,0.0,1.0,3.0,1.0,1.0,0.0,17.0,0.3103448275862069,1.0153256704980842,47.0
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+T0198,Create UI wireframes for feature,2025-08-14,Medium,User_8,8.0,delayed,Development,Pending,0.0,24.0,5.0,0.0,0.0,2.0,2.0,2.0,0.0,15.0,0.3870967741935484,1.8409961685823752,24.0
+T0246,Patch security vulnerability in auth system,2025-07-22,High,User_4,3.0,delayed,Testing,Completed,11.1,1.0,6.0,0.0,0.0,5.0,0.0,0.0,1.0,14.0,0.28,1.2222222222222223,1.0
+T0245,Deploy hotfix for customer complaints,2025-08-29,High,User_6,1.0,on-time,DevOps,Completed,10.7,39.0,5.0,0.0,0.0,1.0,0.0,0.0,1.0,21.0,0.3823529411764705,1.32183908045977,39.0
+synthetic_73754,Create onboarding manual for new developers.,2025-07-31,Urgent,user7,10.0,Needs Improvement,Documentation,To Do,9.294337401325812,,,,,,,,,,,,
+T0211,Patch security vulnerability in auth system,2025-09-14,High,User_3,2.0,on-time,Testing,Pending,0.0,55.0,6.0,0.0,0.0,5.0,2.0,0.0,0.0,13.0,0.25,2.042145593869732,55.0
+synthetic_52794,Create onboarding manual for new developers.,2025-07-27,High,user5,7.0,Late,Documentation,To Do,10.13567504930065,,,,,,,,,,,,
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+synthetic_62355,Prepare user guide for module deployment.,2025-07-22,Urgent,user10,8.0,Needs Improvement,Documentation,To Do,6.182966449417979,,,,,,,,,,,,
+synthetic_72571,Prepare user guide for module deployment.,2025-08-13,Urgent,user6,10.0,Excellent,Documentation,To Do,4.195971670023519,,,,,,,,,,,,
+T0205,Fix critical bug in deployment pipeline,2025-08-18,High,User_3,9.0,delayed,Management,Pending,0.0,28.0,6.0,1.0,0.0,4.0,2.0,0.0,0.0,13.0,0.25,2.3544061302682,28.0
+synthetic_43204,Redesign profile section layout.,2025-08-17,Urgent,user8,3.0,On Time,Design,To Do,6.24584946799887,,,,,,,,,,,,
+T0144,Update user guides,2025-08-24,Medium,User_8,1.0,on-time,Testing,Pending,0.0,34.0,3.0,0.0,0.0,5.0,2.0,2.0,0.0,15.0,0.3870967741935484,0.5689655172413792,34.0
+synthetic_23326,Create onboarding manual for new developers.,2025-08-16,Low,user1,7.0,Excellent,Documentation,To Do,5.223022400078199,,,,,,,,,,,,
+T0257,Resolve payment gateway timeout issue,2025-07-28,High,User_5,1.0,late,Management,Completed,2.3,7.0,5.0,0.0,1.0,4.0,0.0,0.0,1.0,20.0,0.3235294117647059,0.7701149425287355,7.0
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+T0171,Update user guides,2025-08-05,Medium,User_10,1.0,delayed,DevOps,Pending,0.0,15.0,3.0,0.0,0.0,1.0,2.0,2.0,0.0,17.0,0.3103448275862069,0.2413793103448276,15.0
+synthetic_56601,Optimize CI/CD pipeline.,2025-07-24,Urgent,user1,2.0,Needs Improvement,DevOps,To Do,4.523913606931218,,,,,,,,,,,,
+T0220,Deploy hotfix for customer complaints,2025-09-16,High,User_1,3.0,on-time,Development,Completed,2.2,57.0,5.0,0.0,1.0,2.0,0.0,0.0,1.0,25.0,0.3888888888888889,1.854406130268199,57.0
+T0095,Update internal documentation,2025-08-22,Low,User_6,2.0,delayed,Development,In Progress,0.0,32.0,3.0,0.0,0.0,2.0,1.0,1.0,0.0,21.0,0.3823529411764705,0.6455938697318007,32.0
+T0097,Clean up old logs from server,2025-09-04,Low,User_1,3.0,on-time,Management,Completed,4.2,45.0,6.0,0.0,1.0,4.0,0.0,1.0,1.0,25.0,0.3888888888888889,1.9808429118773947,45.0
+T0200,Create UI wireframes for feature,2025-08-05,Medium,User_8,7.0,late,Management,Pending,0.0,15.0,5.0,0.0,1.0,4.0,2.0,2.0,0.0,15.0,0.3870967741935484,1.5747126436781609,15.0
+T0261,Restore database from backup,2025-08-13,High,User_9,6.0,on-time,Documentation,Pending,0.0,23.0,4.0,0.0,1.0,3.0,2.0,0.0,0.0,17.0,0.3076923076923077,1.2681992337164751,23.0
+T0106,Update user guides,2025-09-08,Medium,User_2,1.0,late,Design,In Progress,0.0,49.0,3.0,0.0,1.0,0.0,1.0,2.0,0.0,18.0,0.4814814814814814,0.8275862068965517,49.0
+T0224,Restore database from backup,2025-08-17,High,User_10,2.0,on-time,Documentation,Pending,0.0,27.0,4.0,0.0,1.0,3.0,2.0,0.0,0.0,17.0,0.3103448275862069,0.89272030651341,27.0
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+synthetic_76465,Allocate resources for upcoming milestone.,2025-07-22,Low,user10,8.0,Excellent,Management,To Do,10.117532422658398,,,,,,,,,,,,
+T0125,Create UI wireframes for feature,2025-09-13,Medium,User_7,9.0,delayed,DevOps,In Progress,0.0,54.0,5.0,0.0,0.0,1.0,1.0,2.0,0.0,20.0,0.3823529411764705,2.469348659003831,54.0
+T0241,Resolve payment gateway timeout issue,2025-09-01,High,User_1,8.0,late,Development,Completed,5.6,42.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,25.0,0.3888888888888889,2.151340996168582,42.0
+T0143,Refactor module for scalability,2025-08-29,Medium,User_1,8.0,delayed,Management,Pending,0.0,39.0,4.0,0.0,0.0,4.0,2.0,2.0,0.0,25.0,0.3888888888888889,1.7662835249042144,39.0
+T0167,Refactor module for scalability,2025-07-22,Medium,User_7,7.0,delayed,Development,In Progress,0.0,1.0,4.0,0.0,1.0,2.0,1.0,2.0,0.0,20.0,0.3823529411764705,0.9999999999999998,1.0
+synthetic_98017,Coordinate interdepartmental meeting.,2025-08-15,Urgent,user7,6.0,Late,Management,To Do,9.40768551628818,,,,,,,,,,,,
+T0130,Write integration tests for API,2025-08-26,Medium,User_6,8.0,late,Design,Pending,0.0,36.0,5.0,0.0,0.0,0.0,2.0,2.0,0.0,21.0,0.3823529411764705,2.047892720306513,36.0
+synthetic_55379,Refactor user authentication module.,2025-08-01,Medium,user10,9.0,On Time,Development,To Do,10.04260142917768,,,,,,,,,,,,
+T0104,Review peer pull requests,2025-09-18,Medium,User_4,4.0,delayed,Testing,Completed,5.0,59.0,4.0,0.0,1.0,5.0,0.0,2.0,1.0,14.0,0.28,1.6666666666666663,59.0
+synthetic_11423,Write API reference documentation.,2025-08-18,Urgent,user9,7.0,Needs Improvement,Documentation,To Do,8.602228647398437,,,,,,,,,,,,
+T0207,Resolve payment gateway timeout issue,2025-07-22,High,User_8,2.0,late,Development,Completed,8.1,1.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,15.0,0.3870967741935484,0.7777777777777777,1.0
+T0188,Review peer pull requests,2025-07-25,Medium,User_1,4.0,on-time,DevOps,Pending,0.0,4.0,4.0,0.0,0.0,1.0,2.0,2.0,0.0,25.0,0.3888888888888889,0.718390804597701,4.0
+synthetic_21180,Prepare user guide for module deployment.,2025-08-14,Low,user1,2.0,Excellent,Documentation,To Do,8.128065809600557,,,,,,,,,,,,
+synthetic_98017,Coordinate interdepartmental meeting.,2025-08-15,Urgent,user7,6.0,Late,Management,To Do,9.40768551628818,,,,,,,,,,,,
+synthetic_97057,Setup monitoring for production servers.,2025-08-15,Urgent,user10,2.0,Excellent,DevOps,To Do,9.349034859276792,,,,,,,,,,,,
+T0291,Fix critical bug in deployment pipeline,2025-08-18,High,User_2,10.0,on-time,DevOps,In Progress,0.0,28.0,6.0,1.0,1.0,1.0,1.0,0.0,0.0,18.0,0.4814814814814814,2.4655172413793105,28.0
+synthetic_93154,Write unit tests for payment module.,2025-08-17,Low,user4,7.0,Excellent,Testing,To Do,7.961536082551952,,,,,,,,,,,,
+T0124,Create UI wireframes for feature,2025-08-03,Medium,User_3,5.0,delayed,Development,In Progress,0.0,13.0,5.0,0.0,1.0,2.0,1.0,2.0,0.0,13.0,0.25,1.3180076628352488,13.0
+synthetic_72571,Prepare user guide for module deployment.,2025-08-13,Urgent,user6,10.0,Excellent,Documentation,To Do,4.195971670023519,,,,,,,,,,,,
+synthetic_32669,Fix bugs in profile update API.,2025-07-24,Urgent,user4,1.0,Needs Improvement,Development,To Do,11.077699779135612,,,,,,,,,,,,
+T0008,Send status update to manager,2025-09-18,Low,User_8,8.0,on-time,DevOps,Completed,9.3,59.0,5.0,0.0,0.0,1.0,0.0,1.0,1.0,15.0,0.3870967741935484,2.444444444444444,59.0
+T0297,Patch security vulnerability in auth system,2025-07-23,High,User_3,5.0,on-time,Management,Completed,6.1,2.0,6.0,0.0,0.0,4.0,0.0,0.0,1.0,13.0,0.25,1.4616858237547892,2.0
+T0003,Clean up old logs from server,2025-07-29,Low,User_6,8.0,on-time,Documentation,Pending,0.0,8.0,6.0,0.0,0.0,3.0,2.0,1.0,0.0,21.0,0.3823529411764705,1.898467432950192,8.0
+synthetic_92158,Write API reference documentation.,2025-08-07,High,user3,1.0,Excellent,Documentation,To Do,11.022094958231374,,,,,,,,,,,,
+synthetic_11423,Write API reference documentation.,2025-08-18,Urgent,user9,7.0,Needs Improvement,Documentation,To Do,8.602228647398437,,,,,,,,,,,,
+T0049,Clean up old logs from server,2025-09-15,Low,User_1,10.0,on-time,DevOps,In Progress,0.0,56.0,6.0,0.0,0.0,1.0,1.0,1.0,0.0,25.0,0.3888888888888889,2.9482758620689653,56.0
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+T0026,Schedule weekly team sync,2025-09-17,Low,User_8,2.0,on-time,Design,In Progress,0.0,58.0,4.0,0.0,1.0,0.0,1.0,1.0,0.0,15.0,0.3870967741935484,1.4272030651340994,58.0
+T0263,Resolve payment gateway timeout issue,2025-08-19,High,User_5,8.0,late,Testing,Completed,4.3,29.0,5.0,0.0,0.0,5.0,0.0,0.0,1.0,20.0,0.3235294117647059,1.9272030651341,29.0
+T0218,Restore database from backup,2025-09-17,High,User_8,2.0,on-time,Design,Completed,8.9,58.0,4.0,0.0,0.0,0.0,0.0,0.0,1.0,15.0,0.3870967741935484,1.4272030651340994,58.0
+synthetic_84126,Prepare user guide for module deployment.,2025-08-12,Urgent,user9,1.0,Late,Documentation,To Do,10.429359294889036,,,,,,,,,,,,
+T0197,Update user guides,2025-08-11,Medium,User_7,5.0,late,Design,Completed,10.3,21.0,3.0,0.0,0.0,0.0,0.0,2.0,1.0,20.0,0.3823529411764705,0.789272030651341,21.0
+synthetic_15937,Prepare user guide for module deployment.,2025-07-23,Low,user1,7.0,On Time,Documentation,To Do,11.346086986618833,,,,,,,,,,,,
+synthetic_45040,Setup monitoring for production servers.,2025-08-20,Urgent,user7,9.0,Late,DevOps,To Do,11.25532166359304,,,,,,,,,,,,
+synthetic_97057,Setup monitoring for production servers.,2025-08-15,Urgent,user10,2.0,Excellent,DevOps,To Do,9.349034859276792,,,,,,,,,,,,
+T0199,Review peer pull requests,2025-08-04,Medium,User_6,5.0,delayed,DevOps,In Progress,0.0,14.0,4.0,0.0,0.0,1.0,1.0,2.0,0.0,21.0,0.3823529411764705,1.0019157088122603,14.0
+T0270,Patch security vulnerability in auth system,2025-08-30,High,User_7,10.0,on-time,Documentation,In Progress,0.0,40.0,6.0,0.0,1.0,3.0,1.0,0.0,0.0,20.0,0.3823529411764705,2.6724137931034484,40.0
+T0027,Clean up old logs from server,2025-09-11,Low,User_5,7.0,delayed,Design,Completed,10.6,52.0,6.0,0.0,0.0,0.0,0.0,1.0,1.0,20.0,0.3235294117647059,2.545977011494253,52.0
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+T0101,Refactor module for scalability,2025-09-04,Medium,User_7,1.0,on-time,Development,In Progress,0.0,45.0,4.0,0.0,1.0,2.0,1.0,2.0,0.0,20.0,0.3823529411764705,1.0919540229885056,45.0
+synthetic_17149,Conduct load testing for new API.,2025-08-11,Urgent,user2,2.0,Needs Improvement,Testing,To Do,4.434283857567285,,,,,,,,,,,,
+T0238,Fix critical bug in deployment pipeline,2025-08-13,High,User_1,10.0,delayed,Design,Pending,0.0,23.0,6.0,1.0,0.0,0.0,2.0,0.0,0.0,25.0,0.3888888888888889,2.3793103448275863,23.0
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+T0184,Create UI wireframes for feature,2025-08-08,Medium,User_1,5.0,delayed,Design,In Progress,0.0,18.0,5.0,0.0,1.0,0.0,1.0,2.0,0.0,25.0,0.3888888888888889,1.404214559386973,18.0
+T0155,Refactor module for scalability,2025-09-01,Medium,User_9,3.0,delayed,Documentation,In Progress,0.0,42.0,4.0,0.0,0.0,3.0,1.0,2.0,0.0,17.0,0.3076923076923077,1.2624521072796933,42.0
+T0047,Send status update to manager,2025-08-18,Low,User_1,1.0,on-time,Design,Pending,0.0,28.0,5.0,0.0,1.0,0.0,2.0,1.0,0.0,25.0,0.3888888888888889,1.1321839080459768,28.0
+synthetic_22687,Update Docker configurations.,2025-07-24,High,user7,8.0,Excellent,DevOps,To Do,5.744588277686071,,,,,,,,,,,,
+T0255,Restore database from backup,2025-07-30,High,User_7,5.0,on-time,Management,Completed,2.5,9.0,4.0,0.0,0.0,4.0,0.0,0.0,1.0,20.0,0.3823529411764705,0.9157088122605364,9.0
+synthetic_84126,Prepare user guide for module deployment.,2025-08-12,Urgent,user9,1.0,Late,Documentation,To Do,10.429359294889036,,,,,,,,,,,,
+T0100,Update internal documentation,2025-09-07,Low,User_4,6.0,on-time,Design,Completed,11.9,48.0,3.0,0.0,0.0,0.0,0.0,1.0,1.0,14.0,0.28,1.3659003831417624,48.0
+T0150,Create UI wireframes for feature,2025-07-27,Medium,User_2,7.0,delayed,Management,In Progress,0.0,6.0,5.0,0.0,0.0,4.0,1.0,2.0,0.0,18.0,0.4814814814814814,1.4195402298850572,6.0
+T0028,Update internal documentation,2025-09-04,Low,User_6,5.0,delayed,Development,Pending,0.0,45.0,3.0,0.0,0.0,2.0,2.0,1.0,0.0,21.0,0.3823529411764705,1.2030651340996168,45.0
+T0088,Update internal documentation,2025-08-06,Low,User_4,5.0,on-time,Design,In Progress,0.0,16.0,3.0,0.0,0.0,0.0,1.0,1.0,0.0,14.0,0.28,0.7030651340996169,16.0
+T0252,Restore database from backup,2025-07-23,High,User_5,9.0,late,Management,Completed,1.6,2.0,4.0,0.0,0.0,4.0,0.0,0.0,1.0,20.0,0.3235294117647059,1.2394636015325668,2.0
+T0146,Review peer pull requests,2025-09-11,Medium,User_3,4.0,late,Development,In Progress,0.0,52.0,4.0,0.0,0.0,2.0,1.0,2.0,0.0,13.0,0.25,1.5459770114942528,52.0
+T0243,Resolve payment gateway timeout issue,2025-08-12,High,User_10,1.0,late,DevOps,In Progress,0.0,22.0,5.0,0.0,0.0,1.0,1.0,0.0,0.0,17.0,0.3103448275862069,1.0287356321839078,22.0
+T0011,Schedule weekly team sync,2025-07-31,Low,User_4,6.0,delayed,Design,Pending,0.0,10.0,4.0,0.0,0.0,0.0,2.0,1.0,0.0,14.0,0.28,1.0440613026819925,10.0
+T0128,Review peer pull requests,2025-08-14,Medium,User_2,1.0,delayed,DevOps,In Progress,0.0,24.0,4.0,0.0,1.0,1.0,1.0,2.0,0.0,18.0,0.4814814814814814,0.7298850574712643,24.0
+T0036,Send status update to manager,2025-09-14,Low,User_6,3.0,delayed,Development,Completed,8.4,55.0,5.0,0.0,0.0,2.0,0.0,1.0,1.0,21.0,0.3823529411764705,1.8199233716475087,55.0
+T0002,Organize shared team files,2025-09-15,Low,User_8,7.0,on-time,DevOps,Completed,5.5,56.0,4.0,0.0,0.0,1.0,0.0,1.0,1.0,15.0,0.3870967741935484,1.9482758620689653,56.0
+T0075,Schedule weekly team sync,2025-08-27,Low,User_3,2.0,late,Management,Pending,0.0,37.0,4.0,0.0,0.0,4.0,2.0,1.0,0.0,13.0,0.25,1.065134099616858,37.0
+T0153,Write integration tests for API,2025-08-19,Medium,User_5,1.0,delayed,Development,Completed,6.2,29.0,5.0,0.0,1.0,2.0,0.0,2.0,1.0,20.0,0.3235294117647059,1.1494252873563218,29.0
+T0069,Update internal documentation,2025-08-21,Low,User_6,10.0,delayed,Documentation,Pending,0.0,31.0,3.0,0.0,0.0,3.0,2.0,1.0,0.0,21.0,0.3823529411764705,1.5172413793103448,31.0
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+T0187,Write integration tests for API,2025-07-29,Medium,User_8,8.0,late,Testing,Pending,0.0,8.0,5.0,0.0,1.0,5.0,2.0,2.0,0.0,15.0,0.3870967741935484,1.565134099616858,8.0
+T0253,Patch security vulnerability in auth system,2025-08-07,High,User_1,4.0,late,Design,Completed,9.0,17.0,6.0,0.0,0.0,0.0,0.0,0.0,1.0,25.0,0.3888888888888889,1.6091954022988504,17.0
+T0168,Refactor module for scalability,2025-08-01,Medium,User_1,1.0,on-time,Development,In Progress,0.0,11.0,4.0,0.0,0.0,2.0,1.0,2.0,0.0,25.0,0.3888888888888889,0.5057471264367815,11.0
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+T0180,Create UI wireframes for feature,2025-08-04,Medium,User_10,1.0,late,Testing,Completed,9.5,14.0,5.0,0.0,0.0,5.0,0.0,2.0,1.0,17.0,0.3103448275862069,0.8908045977011493,14.0
+T0121,Create UI wireframes for feature,2025-09-07,Medium,User_7,4.0,late,Development,Completed,2.1,48.0,5.0,0.0,0.0,2.0,0.0,2.0,1.0,20.0,0.3823529411764705,1.8103448275862064,48.0
+T0228,Fix critical bug in deployment pipeline,2025-08-14,High,User_3,6.0,on-time,Testing,Completed,4.8,24.0,6.0,1.0,0.0,5.0,0.0,0.0,1.0,13.0,0.25,1.9521072796934864,24.0
+T0295,Patch security vulnerability in auth system,2025-08-09,High,User_9,8.0,delayed,Management,Completed,2.1,19.0,6.0,0.0,1.0,4.0,0.0,0.0,1.0,17.0,0.3076923076923077,2.0881226053639845,19.0
+T0148,Update user guides,2025-08-13,Medium,User_5,8.0,delayed,Documentation,Pending,0.0,23.0,3.0,0.0,0.0,3.0,2.0,2.0,0.0,20.0,0.3235294117647059,1.157088122605364,23.0
+synthetic_53217,Conduct weekly team review.,2025-08-10,High,user1,5.0,Late,Management,To Do,11.575563571493214,,,,,,,,,,,,
+T0185,Write integration tests for API,2025-08-14,Medium,User_6,4.0,on-time,DevOps,In Progress,0.0,24.0,5.0,0.0,0.0,1.0,1.0,2.0,0.0,21.0,0.3823529411764705,1.3965517241379308,24.0
+T0273,Deploy hotfix for customer complaints,2025-08-29,High,User_1,3.0,on-time,Design,In Progress,0.0,39.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,25.0,0.3888888888888889,1.544061302681992,39.0
+T0033,Update internal documentation,2025-08-18,Low,User_8,4.0,late,Documentation,Completed,1.5,28.0,3.0,0.0,0.0,3.0,0.0,1.0,1.0,15.0,0.3870967741935484,0.7988505747126436,28.0
+T0191,Refactor module for scalability,2025-08-02,Medium,User_7,10.0,on-time,Management,In Progress,0.0,12.0,4.0,0.0,1.0,4.0,1.0,2.0,0.0,20.0,0.3823529411764705,1.5229885057471264,12.0
+T0271,Patch security vulnerability in auth system,2025-08-10,High,User_7,1.0,late,Development,Pending,0.0,20.0,6.0,0.0,0.0,2.0,2.0,0.0,0.0,20.0,0.3823529411764705,1.3275862068965518,20.0
+T0215,Restore database from backup,2025-08-23,High,User_9,2.0,on-time,Testing,In Progress,0.0,33.0,4.0,0.0,0.0,5.0,1.0,0.0,0.0,17.0,0.3076923076923077,0.9961685823754788,33.0
+synthetic_10835,Conduct weekly team review.,2025-07-27,Low,user4,4.0,Late,Management,To Do,6.51233784951901,,,,,,,,,,,,
+synthetic_32669,Fix bugs in profile update API.,2025-07-24,Urgent,user4,1.0,Needs Improvement,Development,To Do,11.077699779135612,,,,,,,,,,,,
+synthetic_84126,Prepare user guide for module deployment.,2025-08-12,Urgent,user9,1.0,Late,Documentation,To Do,10.429359294889036,,,,,,,,,,,,
+T0059,Update internal documentation,2025-08-01,Low,User_2,1.0,on-time,DevOps,Completed,11.6,11.0,3.0,0.0,1.0,1.0,0.0,1.0,1.0,18.0,0.4814814814814814,0.1724137931034482,11.0
+T0254,Patch security vulnerability in auth system,2025-08-07,High,User_7,1.0,delayed,Design,Pending,0.0,17.0,6.0,0.0,0.0,0.0,2.0,0.0,0.0,20.0,0.3823529411764705,1.2758620689655171,17.0
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+T0154,Write integration tests for API,2025-08-29,Medium,User_10,7.0,late,Design,Pending,0.0,39.0,5.0,0.0,0.0,0.0,2.0,2.0,0.0,17.0,0.3103448275862069,1.9885057471264365,39.0
+synthetic_28727,Create wireframes for onboarding screens.,2025-08-12,Urgent,user7,5.0,Needs Improvement,Design,To Do,11.273215805906338,,,,,,,,,,,,
+T0041,Send status update to manager,2025-09-11,Low,User_5,6.0,on-time,DevOps,In Progress,0.0,52.0,5.0,0.0,0.0,1.0,1.0,1.0,0.0,20.0,0.3235294117647059,2.101532567049808,52.0
+T0284,Restore database from backup,2025-08-23,High,User_10,2.0,on-time,Development,Pending,0.0,33.0,4.0,0.0,0.0,2.0,2.0,0.0,0.0,17.0,0.3103448275862069,0.9961685823754788,33.0
+synthetic_87801,Plan sprint retrospective.,2025-07-24,Urgent,user5,5.0,Needs Improvement,Management,To Do,4.57262712080829,,,,,,,,,,,,
+synthetic_20894,Automate regression test cases.,2025-08-06,Urgent,user8,2.0,On Time,Testing,To Do,10.308510929813382,,,,,,,,,,,,
+synthetic_57361,Automate regression test cases.,2025-07-30,High,user10,10.0,Late,Testing,To Do,2.2175560507225462,,,,,,,,,,,,
+synthetic_62355,Prepare user guide for module deployment.,2025-07-22,Urgent,user10,8.0,Needs Improvement,Documentation,To Do,6.182966449417979,,,,,,,,,,,,
+T0192,Review peer pull requests,2025-09-11,Medium,User_8,7.0,delayed,DevOps,Completed,2.0,52.0,4.0,0.0,1.0,1.0,0.0,2.0,1.0,15.0,0.3870967741935484,1.8793103448275856,52.0
+synthetic_46985,Conduct weekly team review.,2025-08-07,Medium,user9,5.0,Needs Improvement,Management,To Do,2.92235938775438,,,,,,,,,,,,
+T0131,Write integration tests for API,2025-08-12,Medium,User_10,7.0,delayed,Design,Pending,0.0,22.0,5.0,0.0,1.0,0.0,2.0,2.0,0.0,17.0,0.3103448275862069,1.6954022988505744,22.0
+synthetic_19012,Update system documentation for new features.,2025-08-03,Low,user10,10.0,Excellent,Documentation,To Do,5.642264473759687,,,,,,,,,,,,
+synthetic_99172,Allocate resources for upcoming milestone.,2025-08-20,Low,user5,1.0,On Time,Management,To Do,11.809203488895845,,,,,,,,,,,,
+T0087,Organize shared team files,2025-08-05,Low,User_1,8.0,delayed,Development,In Progress,0.0,15.0,4.0,0.0,0.0,2.0,1.0,1.0,0.0,25.0,0.3888888888888889,1.3524904214559386,15.0
+T0142,Update user guides,2025-07-25,Medium,User_3,1.0,late,DevOps,Completed,1.7,4.0,3.0,0.0,1.0,1.0,0.0,2.0,1.0,13.0,0.25,0.0517241379310344,4.0
+synthetic_84126,Prepare user guide for module deployment.,2025-08-12,Urgent,user9,1.0,Late,Documentation,To Do,10.429359294889036,,,,,,,,,,,,
+synthetic_49815,Conduct load testing for new API.,2025-08-12,Medium,user6,3.0,On Time,Testing,To Do,5.659049967905654,,,,,,,,,,,,
+synthetic_84428,Automate regression test cases.,2025-08-08,Low,user9,10.0,Excellent,Testing,To Do,11.047070161616364,,,,,,,,,,,,
+synthetic_84126,Prepare user guide for module deployment.,2025-08-12,Urgent,user9,1.0,Late,Documentation,To Do,10.429359294889036,,,,,,,,,,,,
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+T0259,Patch security vulnerability in auth system,2025-08-14,High,User_3,4.0,on-time,DevOps,In Progress,0.0,24.0,6.0,0.0,0.0,1.0,1.0,0.0,0.0,13.0,0.25,1.7298850574712643,24.0
+synthetic_19165,Update Docker configurations.,2025-08-13,High,user2,8.0,On Time,DevOps,To Do,5.471906566434968,,,,,,,,,,,,
+T0029,Send status update to manager,2025-08-04,Low,User_4,4.0,on-time,DevOps,In Progress,0.0,14.0,5.0,0.0,0.0,1.0,1.0,1.0,0.0,14.0,0.28,1.2241379310344824,14.0
+T0156,Write integration tests for API,2025-08-18,Medium,User_5,9.0,on-time,Testing,Completed,11.1,28.0,5.0,0.0,0.0,5.0,0.0,2.0,1.0,20.0,0.3235294117647059,2.021072796934866,28.0
+T0268,Fix critical bug in deployment pipeline,2025-09-01,High,User_8,2.0,on-time,Design,Completed,10.3,42.0,6.0,1.0,0.0,0.0,0.0,0.0,1.0,15.0,0.3870967741935484,1.818007662835249,42.0
+T0206,Deploy hotfix for customer complaints,2025-07-23,High,User_9,8.0,late,Documentation,Pending,0.0,2.0,5.0,0.0,0.0,3.0,2.0,0.0,0.0,17.0,0.3076923076923077,1.461685823754789,2.0
+T0292,Patch security vulnerability in auth system,2025-09-03,High,User_10,7.0,delayed,Testing,Completed,9.0,44.0,6.0,0.0,0.0,5.0,0.0,0.0,1.0,17.0,0.3103448275862069,2.408045977011494,44.0
+T0117,Update user guides,2025-08-15,Medium,User_6,6.0,delayed,Design,Completed,7.1,25.0,3.0,0.0,0.0,0.0,0.0,2.0,1.0,21.0,0.3823529411764705,0.9693486590038314,25.0
+T0056,Clean up old logs from server,2025-09-03,Low,User_1,3.0,on-time,DevOps,Pending,0.0,44.0,6.0,0.0,1.0,1.0,2.0,1.0,0.0,25.0,0.3888888888888889,1.9636015325670493,44.0
+synthetic_17417,Plan sprint retrospective.,2025-07-31,Medium,user7,10.0,Late,Management,To Do,6.757704053939039,,,,,,,,,,,,
+T0024,Schedule weekly team sync,2025-07-27,Low,User_6,2.0,on-time,Testing,Completed,10.3,6.0,4.0,0.0,0.0,5.0,0.0,1.0,1.0,21.0,0.3823529411764705,0.5306513409961685,6.0
+synthetic_11423,Write API reference documentation.,2025-08-18,Urgent,user9,7.0,Needs Improvement,Documentation,To Do,8.602228647398437,,,,,,,,,,,,
+synthetic_42498,Perform integration tests for latest release.,2025-08-16,Low,user9,5.0,Late,Testing,To Do,9.88925341579602,,,,,,,,,,,,
+T0126,Review peer pull requests,2025-08-25,Medium,User_7,2.0,on-time,Development,Pending,0.0,35.0,4.0,0.0,1.0,2.0,2.0,2.0,0.0,20.0,0.3823529411764705,1.0306513409961684,35.0
+T0258,Resolve payment gateway timeout issue,2025-08-24,High,User_9,6.0,late,Development,In Progress,0.0,34.0,5.0,0.0,0.0,2.0,1.0,0.0,0.0,17.0,0.3076923076923077,1.791187739463601,34.0
+synthetic_73754,Create onboarding manual for new developers.,2025-07-31,Urgent,user7,10.0,Needs Improvement,Documentation,To Do,9.294337401325812,,,,,,,,,,,,
+T0019,Schedule weekly team sync,2025-08-16,Low,User_4,4.0,delayed,DevOps,Completed,10.2,26.0,4.0,0.0,1.0,1.0,0.0,1.0,1.0,14.0,0.28,1.0977011494252873,26.0
+synthetic_62202,Update system documentation for new features.,2025-08-17,High,user1,10.0,Late,Documentation,To Do,2.298258261015396,,,,,,,,,,,,
+synthetic_28206,Write unit tests for payment module.,2025-08-06,High,user6,6.0,Late,Testing,To Do,5.716565331277359,,,,,,,,,,,,
+T0118,Create UI wireframes for feature,2025-08-29,Medium,User_10,8.0,delayed,Development,Completed,4.1,39.0,5.0,0.0,0.0,2.0,0.0,2.0,1.0,17.0,0.3103448275862069,2.099616858237548,39.0
+synthetic_57874,Update system documentation for new features.,2025-07-23,High,user2,6.0,Needs Improvement,Documentation,To Do,5.657047079898058,,,,,,,,,,,,
+T0078,Organize shared team files,2025-09-14,Low,User_9,3.0,late,Management,Pending,0.0,55.0,4.0,0.0,0.0,4.0,2.0,1.0,0.0,17.0,0.3076923076923077,1.486590038314176,55.0
+synthetic_73754,Create onboarding manual for new developers.,2025-07-31,Urgent,user7,10.0,Needs Improvement,Documentation,To Do,9.294337401325812,,,,,,,,,,,,
+T0031,Schedule weekly team sync,2025-08-18,Low,User_3,6.0,delayed,Development,Completed,7.5,28.0,4.0,0.0,1.0,2.0,0.0,1.0,1.0,13.0,0.25,1.3544061302681991,28.0
+T0277,Resolve payment gateway timeout issue,2025-07-26,High,User_6,2.0,delayed,Testing,Pending,0.0,5.0,5.0,0.0,0.0,5.0,2.0,0.0,0.0,21.0,0.3823529411764705,0.846743295019157,5.0
+T0115,Update user guides,2025-08-08,Medium,User_4,9.0,delayed,Design,In Progress,0.0,18.0,3.0,0.0,0.0,0.0,1.0,2.0,0.0,14.0,0.28,1.181992337164751,18.0
+T0162,Create UI wireframes for feature,2025-09-08,Medium,User_1,4.0,delayed,Development,In Progress,0.0,49.0,5.0,0.0,0.0,2.0,1.0,2.0,0.0,25.0,0.3888888888888889,1.827586206896552,49.0
+T0256,Patch security vulnerability in auth system,2025-09-02,High,User_9,6.0,on-time,Testing,Completed,9.7,43.0,6.0,0.0,0.0,5.0,0.0,0.0,1.0,17.0,0.3076923076923077,2.2796934865900385,43.0
+T0086,Send status update to manager,2025-07-24,Low,User_5,10.0,late,DevOps,Pending,0.0,3.0,5.0,0.0,1.0,1.0,2.0,1.0,0.0,20.0,0.3235294117647059,1.7011494252873562,3.0
+T0219,Patch security vulnerability in auth system,2025-08-01,High,User_1,2.0,late,Development,Completed,11.2,11.0,6.0,0.0,1.0,2.0,0.0,0.0,1.0,25.0,0.3888888888888889,1.2835249042145591,11.0
+T0120,Review peer pull requests,2025-08-17,Medium,User_1,10.0,on-time,DevOps,Pending,0.0,27.0,4.0,0.0,0.0,1.0,2.0,2.0,0.0,25.0,0.3888888888888889,1.7816091954022988,27.0
+T0158,Update user guides,2025-08-23,Medium,User_2,5.0,on-time,Management,In Progress,0.0,33.0,3.0,0.0,0.0,4.0,1.0,2.0,0.0,18.0,0.4814814814814814,0.9961685823754788,33.0
+T0096,Clean up old logs from server,2025-08-16,Low,User_4,1.0,delayed,Testing,In Progress,0.0,26.0,6.0,0.0,1.0,5.0,1.0,1.0,0.0,14.0,0.28,1.4310344827586208,26.0
+T0178,Update user guides,2025-08-23,Medium,User_5,5.0,delayed,Documentation,Completed,8.9,33.0,3.0,0.0,0.0,3.0,0.0,2.0,1.0,20.0,0.3235294117647059,0.9961685823754788,33.0
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+synthetic_68475,Conduct weekly team review.,2025-08-16,High,user9,5.0,Late,Management,To Do,5.145131332482945,,,,,,,,,,,,
+T0276,Deploy hotfix for customer complaints,2025-08-31,High,User_1,6.0,delayed,Development,Completed,9.7,41.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,25.0,0.3888888888888889,1.911877394636015,41.0
+T0017,Clean up old logs from server,2025-07-29,Low,User_5,8.0,on-time,Design,In Progress,0.0,8.0,6.0,0.0,0.0,0.0,1.0,1.0,0.0,20.0,0.3235294117647059,1.898467432950192,8.0
+T0145,Refactor module for scalability,2025-08-11,Medium,User_3,8.0,delayed,DevOps,Completed,3.2,21.0,4.0,0.0,0.0,1.0,0.0,2.0,1.0,13.0,0.25,1.4559386973180075,21.0
+T0274,Resolve payment gateway timeout issue,2025-08-31,High,User_6,1.0,late,Management,In Progress,0.0,41.0,5.0,0.0,0.0,4.0,1.0,0.0,0.0,21.0,0.3823529411764705,1.3563218390804597,41.0
+synthetic_56601,Optimize CI/CD pipeline.,2025-07-24,Urgent,user1,2.0,Needs Improvement,DevOps,To Do,4.523913606931218,,,,,,,,,,,,
+synthetic_74495,Update color palette and typography.,2025-08-15,Urgent,user8,5.0,On Time,Design,To Do,10.457119812982445,,,,,,,,,,,,
+T0294,Deploy hotfix for customer complaints,2025-08-22,High,User_6,3.0,on-time,Management,In Progress,0.0,32.0,5.0,0.0,1.0,4.0,1.0,0.0,0.0,21.0,0.3823529411764705,1.4233716475095783,32.0
+T0077,Clean up old logs from server,2025-09-06,Low,User_9,6.0,on-time,Design,Pending,0.0,47.0,6.0,0.0,0.0,0.0,2.0,1.0,0.0,17.0,0.3076923076923077,2.348659003831417,47.0
+synthetic_84318,Create onboarding manual for new developers.,2025-08-03,Urgent,user7,8.0,On Time,Documentation,To Do,6.053766670927303,,,,,,,,,,,,
+T0286,Restore database from backup,2025-08-10,High,User_1,6.0,delayed,Design,In Progress,0.0,20.0,4.0,0.0,0.0,0.0,1.0,0.0,0.0,25.0,0.3888888888888889,1.2164750957854409,20.0
+T0161,Write integration tests for API,2025-08-14,Medium,User_5,6.0,delayed,Documentation,Pending,0.0,24.0,5.0,0.0,0.0,3.0,2.0,2.0,0.0,20.0,0.3235294117647059,1.6187739463601531,24.0
+T0132,Refactor module for scalability,2025-08-07,Medium,User_5,2.0,delayed,DevOps,In Progress,0.0,17.0,4.0,0.0,0.0,1.0,1.0,2.0,0.0,20.0,0.3235294117647059,0.7203065134099615,17.0
+synthetic_62355,Prepare user guide for module deployment.,2025-07-22,Urgent,user10,8.0,Needs Improvement,Documentation,To Do,6.182966449417979,,,,,,,,,,,,
+T0234,Resolve payment gateway timeout issue,2025-09-02,High,User_10,7.0,delayed,Development,Completed,5.9,43.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,17.0,0.3103448275862069,2.057471264367816,43.0
+T0050,Send status update to manager,2025-09-08,Low,User_6,9.0,delayed,Testing,In Progress,0.0,49.0,5.0,0.0,0.0,5.0,1.0,1.0,0.0,21.0,0.3823529411764705,2.383141762452107,49.0
+synthetic_87801,Plan sprint retrospective.,2025-07-24,Urgent,user5,5.0,Needs Improvement,Management,To Do,4.57262712080829,,,,,,,,,,,,
+T0229,Fix critical bug in deployment pipeline,2025-08-11,High,User_6,6.0,delayed,Management,Completed,1.7,21.0,6.0,1.0,1.0,4.0,0.0,0.0,1.0,21.0,0.3823529411764705,1.900383141762452,21.0
+T0111,Update user guides,2025-08-17,Medium,User_10,2.0,delayed,Documentation,Pending,0.0,27.0,3.0,0.0,0.0,3.0,2.0,2.0,0.0,17.0,0.3103448275862069,0.5593869731800767,27.0
+synthetic_57303,Implement search functionality.,2025-08-17,Urgent,user1,6.0,Needs Improvement,Development,To Do,8.054563674974755,,,,,,,,,,,,
+T0071,Send status update to manager,2025-08-29,Low,User_8,7.0,on-time,Development,Completed,7.5,39.0,5.0,0.0,0.0,2.0,0.0,1.0,1.0,15.0,0.3870967741935484,1.9885057471264365,39.0
+T0209,Deploy hotfix for customer complaints,2025-09-01,High,User_6,9.0,on-time,Management,Completed,8.3,42.0,5.0,0.0,0.0,4.0,0.0,0.0,1.0,21.0,0.3823529411764705,2.2624521072796933,42.0
+T0275,Resolve payment gateway timeout issue,2025-09-16,High,User_4,5.0,delayed,Development,Completed,4.8,57.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,14.0,0.28,2.076628352490421,57.0
+T0122,Create UI wireframes for feature,2025-07-30,Medium,User_5,10.0,late,Management,Pending,0.0,9.0,5.0,0.0,0.0,4.0,2.0,2.0,0.0,20.0,0.3235294117647059,1.8045977011494247,9.0
+T0065,Clean up old logs from server,2025-07-22,Low,User_10,2.0,on-time,Design,In Progress,0.0,1.0,6.0,0.0,0.0,0.0,1.0,1.0,0.0,17.0,0.3103448275862069,1.1111111111111112,1.0
+T0060,Send status update to manager,2025-08-16,Low,User_8,10.0,on-time,Development,In Progress,0.0,26.0,5.0,0.0,0.0,2.0,1.0,1.0,0.0,15.0,0.3870967741935484,2.097701149425287,26.0
+T0230,Deploy hotfix for customer complaints,2025-07-24,High,User_5,2.0,delayed,Testing,Completed,4.6,3.0,5.0,0.0,0.0,5.0,0.0,0.0,1.0,20.0,0.3235294117647059,0.8122605363984673,3.0
+T0034,Update internal documentation,2025-09-03,Low,User_7,5.0,on-time,Development,Completed,2.9,44.0,3.0,0.0,0.0,2.0,0.0,1.0,1.0,20.0,0.3823529411764705,1.185823754789272,44.0
+T0135,Write integration tests for API,2025-07-23,Medium,User_8,3.0,delayed,Design,Pending,0.0,2.0,5.0,0.0,1.0,0.0,2.0,2.0,0.0,15.0,0.3870967741935484,0.9061302681992336,2.0
+synthetic_68491,Automate regression test cases.,2025-07-31,High,user4,5.0,Excellent,Testing,To Do,3.506644920560859,,,,,,,,,,,,
+T0005,Send status update to manager,2025-09-12,Low,User_4,7.0,delayed,Management,Completed,8.7,53.0,5.0,0.0,0.0,4.0,0.0,1.0,1.0,14.0,0.28,2.229885057471264,53.0
+synthetic_32669,Fix bugs in profile update API.,2025-07-24,Urgent,user4,1.0,Needs Improvement,Development,To Do,11.077699779135612,,,,,,,,,,,,
+T0296,Patch security vulnerability in auth system,2025-08-11,High,User_2,6.0,on-time,Development,Completed,10.1,21.0,6.0,0.0,1.0,2.0,0.0,0.0,1.0,18.0,0.4814814814814814,1.900383141762452,21.0
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+T0040,Clean up old logs from server,2025-09-10,Low,User_10,7.0,on-time,Development,Completed,3.2,51.0,6.0,0.0,0.0,2.0,0.0,1.0,1.0,17.0,0.3103448275862069,2.528735632183908,51.0
+T0092,Send status update to manager,2025-09-13,Low,User_8,7.0,delayed,Design,Completed,8.5,54.0,5.0,0.0,0.0,0.0,0.0,1.0,1.0,15.0,0.3870967741935484,2.247126436781609,54.0
+T0152,Create UI wireframes for feature,2025-08-01,Medium,User_7,10.0,delayed,DevOps,In Progress,0.0,11.0,5.0,0.0,0.0,1.0,1.0,2.0,0.0,20.0,0.3823529411764705,1.8390804597701147,11.0
+T0013,Send status update to manager,2025-08-16,Low,User_3,1.0,late,Management,Completed,6.6,26.0,5.0,0.0,0.0,4.0,0.0,1.0,1.0,13.0,0.25,1.0977011494252873,26.0
+synthetic_28727,Create wireframes for onboarding screens.,2025-08-12,Urgent,user7,5.0,Needs Improvement,Design,To Do,11.273215805906338,,,,,,,,,,,,
+T0179,Create UI wireframes for feature,2025-07-30,Medium,User_3,10.0,delayed,Management,Completed,4.2,9.0,5.0,0.0,0.0,4.0,0.0,2.0,1.0,13.0,0.25,1.8045977011494247,9.0
+T0007,Update internal documentation,2025-09-12,Low,User_4,8.0,on-time,Design,Completed,5.5,53.0,3.0,0.0,0.0,0.0,0.0,1.0,1.0,14.0,0.28,1.6743295019157087,53.0
+T0272,Resolve payment gateway timeout issue,2025-08-31,High,User_4,2.0,on-time,Management,Completed,3.6,41.0,5.0,0.0,1.0,4.0,0.0,0.0,1.0,14.0,0.28,1.4674329501915708,41.0
+T0196,Review peer pull requests,2025-08-25,Medium,User_2,9.0,delayed,DevOps,In Progress,0.0,35.0,4.0,0.0,0.0,1.0,1.0,2.0,0.0,18.0,0.4814814814814814,1.808429118773946,35.0
+synthetic_28727,Create wireframes for onboarding screens.,2025-08-12,Urgent,user7,5.0,Needs Improvement,Design,To Do,11.273215805906338,,,,,,,,,,,,
+T0006,Send status update to manager,2025-09-17,Low,User_1,10.0,delayed,Documentation,In Progress,0.0,58.0,5.0,0.0,1.0,3.0,1.0,1.0,0.0,25.0,0.3888888888888889,2.6494252873563218,58.0
+synthetic_42937,Write unit tests for payment module.,2025-08-11,Medium,user8,3.0,On Time,Testing,To Do,11.565285911108536,,,,,,,,,,,,
+synthetic_20894,Automate regression test cases.,2025-08-06,Urgent,user8,2.0,On Time,Testing,To Do,10.308510929813382,,,,,,,,,,,,
+T0174,Write integration tests for API,2025-08-10,Medium,User_9,8.0,on-time,Development,Completed,8.2,20.0,5.0,0.0,0.0,2.0,0.0,2.0,1.0,17.0,0.3076923076923077,1.772030651340996,20.0
+synthetic_64322,Refactor user authentication module.,2025-08-11,High,user6,5.0,On Time,Development,To Do,10.188503130438194,,,,,,,,,,,,
+T0183,Create UI wireframes for feature,2025-09-12,Medium,User_1,7.0,late,Management,In Progress,0.0,53.0,5.0,0.0,0.0,4.0,1.0,2.0,0.0,25.0,0.3888888888888889,2.229885057471264,53.0
+T0223,Resolve payment gateway timeout issue,2025-08-27,High,User_5,9.0,late,Documentation,Pending,0.0,37.0,5.0,0.0,1.0,3.0,2.0,0.0,0.0,20.0,0.3235294117647059,2.176245210727969,37.0
+T0094,Clean up old logs from server,2025-08-05,Low,User_3,5.0,late,Testing,In Progress,0.0,15.0,6.0,0.0,0.0,5.0,1.0,1.0,0.0,13.0,0.25,1.685823754789272,15.0
+synthetic_56601,Optimize CI/CD pipeline.,2025-07-24,Urgent,user1,2.0,Needs Improvement,DevOps,To Do,4.523913606931218,,,,,,,,,,,,
+synthetic_46940,Write unit tests for payment module.,2025-07-27,Urgent,user7,1.0,Excellent,Testing,To Do,5.544458818346778,,,,,,,,,,,,
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+T0045,Schedule weekly team sync,2025-09-16,Low,User_9,9.0,on-time,Testing,Completed,7.8,57.0,4.0,0.0,0.0,5.0,0.0,1.0,1.0,17.0,0.3076923076923077,2.1877394636015324,57.0
+T0236,Deploy hotfix for customer complaints,2025-09-18,High,User_7,1.0,on-time,Development,In Progress,0.0,59.0,5.0,0.0,1.0,2.0,1.0,0.0,0.0,20.0,0.3823529411764705,1.6666666666666663,59.0
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+synthetic_80794,Coordinate interdepartmental meeting.,2025-08-11,Low,user2,4.0,Needs Improvement,Management,To Do,4.55334037403551,,,,,,,,,,,,
+T0048,Send status update to manager,2025-09-13,Low,User_3,8.0,late,DevOps,Pending,0.0,54.0,5.0,0.0,0.0,1.0,2.0,1.0,0.0,13.0,0.25,2.35823754789272,54.0
+T0139,Review peer pull requests,2025-08-20,Medium,User_10,7.0,delayed,Development,Completed,4.9,30.0,4.0,0.0,0.0,2.0,0.0,2.0,1.0,17.0,0.3103448275862069,1.4999999999999998,30.0
+T0009,Clean up old logs from server,2025-08-15,Low,User_1,3.0,delayed,Design,In Progress,0.0,25.0,6.0,0.0,0.0,0.0,1.0,1.0,0.0,25.0,0.3888888888888889,1.636015325670498,25.0
+T0189,Update user guides,2025-08-06,Medium,User_8,6.0,late,Testing,Completed,5.8,16.0,3.0,0.0,0.0,5.0,0.0,2.0,1.0,15.0,0.3870967741935484,0.814176245210728,16.0
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+T0054,Clean up old logs from server,2025-08-27,Low,User_6,4.0,on-time,Testing,Pending,0.0,37.0,6.0,0.0,0.0,5.0,2.0,1.0,0.0,21.0,0.3823529411764705,1.954022988505747,37.0
+synthetic_32669,Fix bugs in profile update API.,2025-07-24,Urgent,user4,1.0,Needs Improvement,Development,To Do,11.077699779135612,,,,,,,,,,,,
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+synthetic_63496,Update Docker configurations.,2025-07-25,Medium,user7,5.0,Excellent,DevOps,To Do,9.922024096229766,,,,,,,,,,,,
+synthetic_76837,Prepare user guide for module deployment.,2025-08-20,High,user7,10.0,Late,Documentation,To Do,10.418043196828988,,,,,,,,,,,,
+T0244,Deploy hotfix for customer complaints,2025-09-03,High,User_4,5.0,delayed,Design,In Progress,0.0,44.0,5.0,0.0,0.0,0.0,1.0,0.0,0.0,14.0,0.28,1.8524904214559383,44.0
+T0123,Write integration tests for API,2025-07-27,Medium,User_2,9.0,late,Design,Pending,0.0,6.0,5.0,0.0,0.0,0.0,2.0,2.0,0.0,18.0,0.4814814814814814,1.6417624521072796,6.0
+T0160,Refactor module for scalability,2025-07-26,Medium,User_4,5.0,late,Testing,Completed,10.4,5.0,4.0,0.0,0.0,5.0,0.0,2.0,1.0,14.0,0.28,0.846743295019157,5.0
+T0061,Schedule weekly team sync,2025-09-03,Low,User_6,7.0,delayed,Management,In Progress,0.0,44.0,4.0,0.0,0.0,4.0,1.0,1.0,0.0,21.0,0.3823529411764705,1.7413793103448274,44.0
+T0280,Resolve payment gateway timeout issue,2025-08-17,High,User_2,4.0,late,DevOps,In Progress,0.0,27.0,5.0,0.0,0.0,1.0,1.0,0.0,0.0,18.0,0.4814814814814814,1.4482758620689653,27.0
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+T0062,Schedule weekly team sync,2025-08-22,Low,User_2,6.0,on-time,Development,In Progress,0.0,32.0,4.0,0.0,0.0,2.0,1.0,1.0,0.0,18.0,0.4814814814814814,1.4233716475095783,32.0
+synthetic_93482,Redesign profile section layout.,2025-07-29,Low,user4,7.0,On Time,Design,To Do,11.44765268832612,,,,,,,,,,,,
+T0035,Organize shared team files,2025-08-18,Low,User_2,3.0,on-time,Documentation,Pending,0.0,28.0,4.0,0.0,0.0,3.0,2.0,1.0,0.0,18.0,0.4814814814814814,1.021072796934866,28.0
+T0226,Restore database from backup,2025-09-12,High,User_10,8.0,delayed,Documentation,In Progress,0.0,53.0,4.0,0.0,0.0,3.0,1.0,0.0,0.0,17.0,0.3103448275862069,2.0076628352490418,53.0
+T0076,Organize shared team files,2025-08-29,Low,User_2,9.0,late,Development,Completed,9.2,39.0,4.0,0.0,1.0,2.0,0.0,1.0,1.0,18.0,0.4814814814814814,1.8773946360153253,39.0
+synthetic_57303,Implement search functionality.,2025-08-17,Urgent,user1,6.0,Needs Improvement,Development,To Do,8.054563674974755,,,,,,,,,,,,
+T0267,Deploy hotfix for customer complaints,2025-09-11,High,User_6,6.0,delayed,Documentation,Pending,0.0,52.0,5.0,0.0,0.0,3.0,2.0,0.0,0.0,21.0,0.3823529411764705,2.101532567049808,52.0
+synthetic_56601,Optimize CI/CD pipeline.,2025-07-24,Urgent,user1,2.0,Needs Improvement,DevOps,To Do,4.523913606931218,,,,,,,,,,,,
+synthetic_74495,Update color palette and typography.,2025-08-15,Urgent,user8,5.0,On Time,Design,To Do,10.457119812982445,,,,,,,,,,,,
+T0232,Resolve payment gateway timeout issue,2025-09-10,High,User_7,6.0,on-time,Development,Completed,2.2,51.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,20.0,0.3823529411764705,2.0842911877394634,51.0
+T0164,Create UI wireframes for feature,2025-09-13,Medium,User_7,6.0,late,DevOps,In Progress,0.0,54.0,5.0,0.0,0.0,1.0,1.0,2.0,0.0,20.0,0.3823529411764705,2.136015325670498,54.0
+T0210,Fix critical bug in deployment pipeline,2025-09-03,High,User_8,1.0,late,Management,Completed,2.3,44.0,6.0,1.0,0.0,4.0,0.0,0.0,1.0,15.0,0.3870967741935484,1.7413793103448274,44.0
+T0216,Fix critical bug in deployment pipeline,2025-09-08,High,User_10,1.0,delayed,Testing,Completed,2.4,49.0,6.0,1.0,1.0,5.0,0.0,0.0,1.0,17.0,0.3103448275862069,1.827586206896552,49.0
+T0014,Update internal documentation,2025-08-22,Low,User_7,7.0,on-time,Documentation,In Progress,0.0,32.0,3.0,0.0,1.0,3.0,1.0,1.0,0.0,20.0,0.3823529411764705,1.201149425287356,32.0
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+T0102,Write integration tests for API,2025-08-04,Medium,User_1,9.0,late,Development,Completed,8.4,14.0,5.0,0.0,1.0,2.0,0.0,2.0,1.0,25.0,0.3888888888888889,1.779693486590038,14.0
+synthetic_39391,Conduct weekly team review.,2025-07-24,Medium,user8,9.0,Excellent,Management,To Do,11.817140594513912,,,,,,,,,,,,
+synthetic_17149,Conduct load testing for new API.,2025-08-11,Urgent,user2,2.0,Needs Improvement,Testing,To Do,4.434283857567285,,,,,,,,,,,,
+T0240,Deploy hotfix for customer complaints,2025-07-30,High,User_1,3.0,on-time,Development,Completed,4.6,9.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,25.0,0.3888888888888889,1.0268199233716473,9.0
+synthetic_89279,Plan sprint retrospective.,2025-08-05,Medium,user6,6.0,On Time,Management,To Do,5.384042526987052,,,,,,,,,,,,
+T0089,Schedule weekly team sync,2025-08-23,Low,User_6,5.0,late,Documentation,Pending,0.0,33.0,4.0,0.0,0.0,3.0,2.0,1.0,0.0,21.0,0.3823529411764705,1.3295019157088122,33.0
+T0202,Patch security vulnerability in auth system,2025-09-11,High,User_4,4.0,delayed,Documentation,In Progress,0.0,52.0,6.0,0.0,1.0,3.0,1.0,0.0,0.0,14.0,0.28,2.21264367816092,52.0
+T0046,Clean up old logs from server,2025-08-14,Low,User_8,1.0,delayed,Design,Pending,0.0,24.0,6.0,0.0,0.0,0.0,2.0,1.0,0.0,15.0,0.3870967741935484,1.396551724137931,24.0
+synthetic_54619,Design UI for dashboard module.,2025-08-04,Medium,user7,4.0,Excellent,Design,To Do,11.450718801150032,,,,,,,,,,,,
+T0016,Organize shared team files,2025-08-24,Low,User_3,2.0,late,Documentation,Pending,0.0,34.0,4.0,0.0,0.0,3.0,2.0,1.0,0.0,13.0,0.25,1.0134099616858236,34.0
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+T0190,Review peer pull requests,2025-08-22,Medium,User_9,4.0,late,DevOps,Pending,0.0,32.0,4.0,0.0,0.0,1.0,2.0,2.0,0.0,17.0,0.3076923076923077,1.201149425287356,32.0
+T0285,Resolve payment gateway timeout issue,2025-08-17,High,User_7,10.0,delayed,Testing,Completed,9.3,27.0,5.0,0.0,1.0,5.0,0.0,0.0,1.0,20.0,0.3823529411764705,2.1149425287356323,27.0
+synthetic_51408,Automate regression test cases.,2025-07-30,Low,user1,8.0,Late,Testing,To Do,4.554924859302746,,,,,,,,,,,,
+synthetic_28727,Create wireframes for onboarding screens.,2025-08-12,Urgent,user7,5.0,Needs Improvement,Design,To Do,11.273215805906338,,,,,,,,,,,,
+T0278,Deploy hotfix for customer complaints,2025-09-17,High,User_7,7.0,late,Development,Completed,9.9,58.0,5.0,0.0,0.0,2.0,0.0,0.0,1.0,20.0,0.3823529411764705,2.3160919540229883,58.0
+synthetic_75664,Optimize CI/CD pipeline.,2025-08-18,High,user2,4.0,Late,DevOps,To Do,2.8805479691481466,,,,,,,,,,,,
+synthetic_25203,Setup monitoring for production servers.,2025-08-16,Urgent,user8,1.0,Late,DevOps,To Do,3.6532500261104657,,,,,,,,,,,,
+synthetic_65352,Automate regression test cases.,2025-08-14,Medium,user7,10.0,On Time,Testing,To Do,6.132271289450827,,,,,,,,,,,,
+T0044,Clean up old logs from server,2025-09-08,Low,User_5,7.0,on-time,Testing,In Progress,0.0,49.0,6.0,0.0,1.0,5.0,1.0,1.0,0.0,20.0,0.3235294117647059,2.494252873563218,49.0
+T0298,Deploy hotfix for customer complaints,2025-08-08,High,User_1,9.0,on-time,Documentation,In Progress,0.0,18.0,5.0,0.0,1.0,3.0,1.0,0.0,0.0,25.0,0.3888888888888889,1.8486590038314168,18.0
+synthetic_28404,Prepare user guide for module deployment.,2025-08-01,Medium,user7,4.0,On Time,Documentation,To Do,5.489902558854708,,,,,,,,,,,,
+T0181,Refactor module for scalability,2025-07-28,Medium,User_3,1.0,late,Testing,Completed,4.8,7.0,4.0,0.0,0.0,5.0,0.0,2.0,1.0,13.0,0.25,0.4367816091954022,7.0
+T0090,Schedule weekly team sync,2025-08-22,Low,User_5,4.0,late,Testing,Pending,0.0,32.0,4.0,0.0,1.0,5.0,2.0,1.0,0.0,20.0,0.3235294117647059,1.201149425287356,32.0
+T0037,Organize shared team files,2025-08-03,Low,User_6,8.0,on-time,Development,Completed,8.5,13.0,4.0,0.0,0.0,2.0,0.0,1.0,1.0,21.0,0.3823529411764705,1.3180076628352488,13.0
+synthetic_67902,Redesign profile section layout.,2025-08-05,Urgent,user3,1.0,Late,Design,To Do,7.754884045898051,,,,,,,,,,,,
+T0172,Review peer pull requests,2025-08-19,Medium,User_9,3.0,delayed,Documentation,In Progress,0.0,29.0,4.0,0.0,0.0,3.0,1.0,2.0,0.0,17.0,0.3076923076923077,1.0383141762452106,29.0
+T0052,Update internal documentation,2025-08-05,Low,User_1,10.0,late,Management,In Progress,0.0,15.0,3.0,0.0,0.0,4.0,1.0,1.0,0.0,25.0,0.3888888888888889,1.2413793103448276,15.0
+T0193,Refactor module for scalability,2025-09-09,Medium,User_9,3.0,late,Documentation,Pending,0.0,50.0,4.0,0.0,0.0,3.0,2.0,2.0,0.0,17.0,0.3076923076923077,1.400383141762452,50.0
+T0112,Write integration tests for API,2025-08-27,Medium,User_5,5.0,on-time,Management,Pending,0.0,37.0,5.0,0.0,1.0,4.0,2.0,2.0,0.0,20.0,0.3235294117647059,1.7318007662835246,37.0
+synthetic_19321,Plan sprint retrospective.,2025-08-15,Low,user10,2.0,Needs Improvement,Management,To Do,7.238490935938148,,,,,,,,,,,,
+T0015,Send status update to manager,2025-09-18,Low,User_1,6.0,delayed,Development,In Progress,0.0,59.0,5.0,0.0,0.0,2.0,1.0,1.0,0.0,25.0,0.3888888888888889,2.222222222222222,59.0
+T0134,Update user guides,2025-09-08,Medium,User_8,6.0,on-time,Documentation,Pending,0.0,49.0,3.0,0.0,0.0,3.0,2.0,2.0,0.0,15.0,0.3870967741935484,1.3831417624521074,49.0
+T0114,Update user guides,2025-07-23,Medium,User_7,8.0,late,Management,In Progress,0.0,2.0,3.0,0.0,0.0,4.0,1.0,2.0,0.0,20.0,0.3823529411764705,0.7950191570881225,2.0
+synthetic_29687,Redesign profile section layout.,2025-07-28,Medium,user3,3.0,Late,Design,To Do,8.445971743651135,,,,,,,,,,,,
+T0214,Patch security vulnerability in auth system,2025-07-22,High,User_5,8.0,delayed,Development,In Progress,0.0,1.0,6.0,0.0,1.0,2.0,1.0,0.0,0.0,20.0,0.3235294117647059,1.7777777777777777,1.0
+T0170,Review peer pull requests,2025-09-14,Medium,User_4,1.0,late,Documentation,Pending,0.0,55.0,4.0,0.0,0.0,3.0,2.0,2.0,0.0,14.0,0.28,1.264367816091954,55.0
+synthetic_20894,Automate regression test cases.,2025-08-06,Urgent,user8,2.0,On Time,Testing,To Do,10.308510929813382,,,,,,,,,,,,
+T0151,Refactor module for scalability,2025-07-28,Medium,User_6,6.0,delayed,DevOps,Pending,0.0,7.0,4.0,0.0,0.0,1.0,2.0,2.0,0.0,21.0,0.3823529411764705,0.9923371647509578,7.0
+synthetic_57303,Implement search functionality.,2025-08-17,Urgent,user1,6.0,Needs Improvement,Development,To Do,8.054563674974755,,,,,,,,,,,,
+T0300,Restore database from backup,2025-09-18,High,User_3,4.0,delayed,DevOps,Completed,6.2,59.0,4.0,0.0,0.0,1.0,0.0,0.0,1.0,13.0,0.25,1.6666666666666663,59.0
+synthetic_46940,Write unit tests for payment module.,2025-07-27,Urgent,user7,1.0,Excellent,Testing,To Do,5.544458818346778,,,,,,,,,,,,
+synthetic_20731,Conduct weekly team review.,2025-07-31,High,user2,6.0,On Time,Management,To Do,4.226078438073593,,,,,,,,,,,,
+T0081,Clean up old logs from server,2025-07-23,Low,User_1,1.0,late,Design,In Progress,0.0,2.0,6.0,0.0,1.0,0.0,1.0,1.0,0.0,25.0,0.3888888888888889,1.0172413793103448,2.0
+synthetic_33526,Update Docker configurations.,2025-08-12,Medium,user5,6.0,Needs Improvement,DevOps,To Do,4.038871929100124,,,,,,,,,,,,
+T0084,Clean up old logs from server,2025-09-03,Low,User_10,1.0,on-time,Design,In Progress,0.0,44.0,6.0,0.0,0.0,0.0,1.0,1.0,0.0,17.0,0.3103448275862069,1.7413793103448274,44.0
+T0138,Review peer pull requests,2025-09-18,Medium,User_5,10.0,late,Documentation,In Progress,0.0,59.0,4.0,0.0,0.0,3.0,1.0,2.0,0.0,20.0,0.3235294117647059,2.333333333333333,59.0
+T0108,Write integration tests for API,2025-08-12,Medium,User_5,5.0,on-time,Development,Pending,0.0,22.0,5.0,0.0,1.0,2.0,2.0,2.0,0.0,20.0,0.3235294117647059,1.4731800766283525,22.0
+synthetic_10372,Prepare user guide for module deployment.,2025-08-13,Medium,user7,1.0,Excellent,Documentation,To Do,9.232242268324065,,,,,,,,,,,,
+T0068,Schedule weekly team sync,2025-08-30,Low,User_4,6.0,delayed,Design,Completed,3.9,40.0,4.0,0.0,1.0,0.0,0.0,1.0,1.0,14.0,0.28,1.5613026819923372,40.0
+synthetic_87737,Setup monitoring for production servers.,2025-08-07,Urgent,user8,2.0,On Time,DevOps,To Do,11.090443250925714,,,,,,,,,,,,
+T0073,Organize shared team files,2025-09-03,Low,User_5,10.0,on-time,Development,Pending,0.0,44.0,4.0,0.0,1.0,2.0,2.0,1.0,0.0,20.0,0.3235294117647059,2.074712643678161,44.0
+synthetic_94121,Write unit tests for payment module.,2025-08-20,Urgent,user5,10.0,Excellent,Testing,To Do,9.881249523622095,,,,,,,,,,,,
+synthetic_66770,Automate regression test cases.,2025-07-28,High,user4,9.0,Late,Testing,To Do,3.729082531486728,,,,,,,,,,,,
+T0265,Fix critical bug in deployment pipeline,2025-08-23,High,User_5,10.0,late,Development,Completed,4.3,33.0,6.0,1.0,0.0,2.0,0.0,0.0,1.0,20.0,0.3235294117647059,2.5517241379310347,33.0
+synthetic_27262,Update color palette and typography.,2025-08-16,Urgent,user2,7.0,On Time,Design,To Do,4.895289600560544,,,,,,,,,,,,
+T0173,Update user guides,2025-07-29,Medium,User_2,5.0,late,Development,In Progress,0.0,8.0,3.0,0.0,0.0,2.0,1.0,2.0,0.0,18.0,0.4814814814814814,0.5651340996168582,8.0
+synthetic_20894,Automate regression test cases.,2025-08-06,Urgent,user8,2.0,On Time,Testing,To Do,10.308510929813382,,,,,,,,,,,,
+T0079,Schedule weekly team sync,2025-09-12,Low,User_5,4.0,on-time,Testing,Pending,0.0,53.0,4.0,0.0,0.0,5.0,2.0,1.0,0.0,20.0,0.3235294117647059,1.5632183908045976,53.0
+T0099,Clean up old logs from server,2025-08-26,Low,User_10,4.0,on-time,DevOps,In Progress,0.0,36.0,6.0,0.0,0.0,1.0,1.0,1.0,0.0,17.0,0.3103448275862069,1.9367816091954024,36.0
+T0127,Review peer pull requests,2025-08-25,Medium,User_2,7.0,late,Development,Completed,11.9,35.0,4.0,0.0,0.0,2.0,0.0,2.0,1.0,18.0,0.4814814814814814,1.5862068965517238,35.0
+T0141,Write integration tests for API,2025-08-14,Medium,User_4,2.0,late,Testing,In Progress,0.0,24.0,5.0,0.0,1.0,5.0,1.0,2.0,0.0,14.0,0.28,1.1743295019157087,24.0
+T0055,Organize shared team files,2025-08-16,Low,User_3,3.0,late,DevOps,Pending,0.0,26.0,4.0,0.0,0.0,1.0,2.0,1.0,0.0,13.0,0.25,0.986590038314176,26.0
+synthetic_54531,Plan sprint retrospective.,2025-08-06,Low,user1,6.0,On Time,Management,To Do,4.533024750761973,,,,,,,,,,,,
+synthetic_56601,Optimize CI/CD pipeline.,2025-07-24,Urgent,user1,2.0,Needs Improvement,DevOps,To Do,4.523913606931218,,,,,,,,,,,,
+T0032,Send status update to manager,2025-09-04,Low,User_6,7.0,on-time,Design,Completed,3.6,45.0,5.0,0.0,0.0,0.0,0.0,1.0,1.0,21.0,0.3823529411764705,2.0919540229885056,45.0
