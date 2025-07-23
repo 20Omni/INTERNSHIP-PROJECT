@@ -47,18 +47,21 @@ def assign_user_with_check(pred_category, urgency_score=0):
 # =====================
 st.title("🧠 AI Task Assignment Dashboard")
 
-# Dropdown for selecting an existing task
-all_tasks = df["task_description"].dropna().unique().tolist()
-selected_task = st.selectbox("📂 Select an existing task from dataset (or type a new one):", [""] + all_tasks)
-
 with st.form("task_form"):
-    task_desc = st.text_area("📝 Or enter a new task description", value=selected_task if selected_task else "")
+    input_mode = st.radio("Choose input mode:", ["Select from dataset", "Enter manually"])
+    all_tasks = df["task_description"].dropna().unique().tolist()
+    task_desc = ""
+    if input_mode == "Select from dataset":
+        task_desc = st.selectbox("📂 Select a task:", all_tasks)
+    else:
+        task_desc = st.text_area("📝 Enter Task Description")
+
     deadline = st.date_input("📅 Deadline", min_value=datetime.date.today())
     submitted = st.form_submit_button("Predict & Assign")
 
 if submitted:
     if not task_desc.strip():
-        st.warning("⚠️ Please enter or select a task description.")
+        st.warning("⚠️ Please provide a task description.")
     else:
         task_vector_priority = priority_vectorizer.transform([task_desc])
         task_vector_category = task_vectorizer.transform([task_desc])
@@ -87,4 +90,3 @@ if submitted:
             st.success(f"✅ {assigned_user} has prior experience in **{pred_category}**.")
         else:
             st.error(f"⚠️ {assigned_user} has **no prior tasks** in category **{pred_category}**.")
-
