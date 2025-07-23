@@ -1,4 +1,4 @@
-import streamlit as st
+   import streamlit as st
 import pandas as pd
 import joblib
 import datetime
@@ -54,32 +54,36 @@ st.title("🧠 AI Task Assignment Dashboard")
 
 # Dropdown for selecting task from dataset
 task_options = df["task_description"].dropna().unique().tolist()
-selected_task = st.selectbox("select an existing task:", [""] + task_options)
+selected_task = st.selectbox("Or select an existing task:", [""] + task_options)
 
 with st.form("task_form"):
-   
+    task_desc = st.text_area("📝 Enter Task Description", value=selected_task if selected_task else "")
     deadline = st.date_input("📅 Deadline", min_value=datetime.date.today())
     submitted = st.form_submit_button("Predict & Assign")
-    task_vector = task_vectorizer.transform([task_desc])
-    priority_vector = priority_vectorizer.transform([task_desc])
 
-pred_priority_enc = priority_model.predict(priority_vector)[0]
-pred_priority = priority_label_encoder.inverse_transform([pred_priority_enc])[0]
-pred_category_enc = task_model.predict(task_vector)[0]
-pred_category = task_label_encoder.inverse_transform([pred_category_enc])[0]
+if submitted:
+    if not task_desc.strip():
+        st.error("Task description cannot be empty!")
+    else:
+        # Vectorize
+        task_vector = task_vectorizer.transform([task_desc])
+        priority_vector = priority_vectorizer.transform([task_desc])
 
-       
-today = datetime.date.today()
-days_left = (deadline - today).days
-urgency_score = max(0, 10 - days_left)
-assigned_user = assign_user_with_check(pred_category, urgency_score)
-st.success(f"✅ Task Assigned to: **{assigned_user}**")
-st.info(f"🔺 Priority: **{pred_priority}** | 📁 Category: **{pred_category}** | 🗓 Days to Deadline: {days_left}")
-        
+        # Predictions
+        pred_priority_enc = priority_model.predict(priority_vector)[0]
+        pred_priority = priority_label_encoder.inverse_transform([pred_priority_enc])[0]
 
+        pred_category_enc = task_model.predict(task_vector)[0]
+        pred_category = task_label_encoder.inverse_transform([pred_category_enc])[0]
 
-       
-     
-       
-       
-        
+        # Deadline urgency
+        today = datetime.date.today()
+        days_left = (deadline - today).days
+        urgency_score = max(0, 10 - days_left)
+
+        # Assign user using improved logic
+        assigned_user = assign_user_with_check(pred_category, urgency_score)
+
+        # Show results
+        st.success(f"✅ Task Assigned to: **{assigned_user}**")
+        st.info(f"🔺 Priority: **{pred_priority}** | 📁 Category: **{pred_category}** | 🗓 Days to Deadline: {days_left}")
