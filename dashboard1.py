@@ -38,7 +38,7 @@ def assign_user_with_check(pred_category, urgency_score=0):
     matching_users_filtered = user_workload_df[user_workload_df["assigned_user"].isin(matching_users)].copy()
 
     if matching_users_filtered.empty:
-        return "No available user", None
+        return "No available user"
 
     # Compute combined score
     matching_users_filtered["urgency_score"] = urgency_score
@@ -46,7 +46,7 @@ def assign_user_with_check(pred_category, urgency_score=0):
 
     # Choose lowest combined score
     assigned_user = matching_users_filtered.sort_values("combined_score").iloc[0]["assigned_user"]
-    return assigned_user, matching_users_filtered
+    return assigned_user
 
 # =====================
 # 🔹 Streamlit UI
@@ -80,7 +80,7 @@ if submitted:
         urgency_score = max(0, 10 - days_left)
 
         # 🔸 Assign user
-        assigned_user, matching_users_filtered = assign_user_with_check(pred_category, urgency_score)
+        assigned_user = assign_user_with_check(pred_category, urgency_score)
 
         # Display results
         if assigned_user != "No available user":
@@ -90,12 +90,10 @@ if submitted:
             st.warning("⚠️ No suitable user found.")
 
         # =====================
-        # 🔹 Cross-Check Feature
+        # 🔹 Cross-Check Feature (NO TABLE)
         # =====================
-        st.subheader("🔍 Cross-Check: Has this user worked in this category?")
         user_past_tasks = df[(df["assigned_user"] == assigned_user) & (df["category"] == pred_category)]
         if not user_past_tasks.empty:
-            st.success(f"✅ {assigned_user} has experience in **{pred_category}** ({len(user_past_tasks)} tasks).")
-            st.dataframe(user_past_tasks[["task_id", "task_description", "status"]].head(5))
+            st.success(f"✅ {assigned_user} has prior experience in **{pred_category}**.")
         else:
             st.error(f"⚠️ {assigned_user} has **no prior tasks** in category **{pred_category}**.")
