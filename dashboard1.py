@@ -76,6 +76,4 @@ if st.button("Predict & Assign"):
         st.info(f"🔺 Priority: **{pred_priority}** | 📁 Category: **{pred_category}** | 🗓 Deadline: {deadline}")
 
        
-        st.write("### Top 3 Candidate Users:")
-        for i in top3_idx:
-            st.write(f"- **{user_label_encoder.inverse_transform([i])[0]}** ({probs[i]*100:.2f}%)")
+       
